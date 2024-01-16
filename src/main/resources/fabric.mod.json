@@ -3,13 +3,13 @@
 	"id": "respawneye",
 	"version": "${version}",
 	"name": "RespawnEye",
-	"description": "",
+	"description": "RespawnEye is a Fabric Mod based on Minecraft 1.20.4 and licensed under the MIT LICENSE",
 	"authors": [
 		"HuanMeng_"
 	],
 	"contact": {
 		"homepage": "",
-		"sources": ""
+		"sources": "https://github.com/HuanMeng-official/RespawnEye"
 	},
 	"license": "MIT LICENSE",
 	"icon": "assets/respawneye/icon.png",
