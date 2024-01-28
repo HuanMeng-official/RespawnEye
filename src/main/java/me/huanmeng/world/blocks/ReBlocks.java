@@ -12,10 +12,12 @@ import net.minecraft.util.Identifier;
 
 public class ReBlocks {
 
-    public static final Block RUBY_ORE = registerBlocks("ruby_ore", new Block(FabricBlockSettings.copyOf(Blocks.DIAMOND_ORE)));
-    public static final Block DEEPSLATE_RUBY_ORE = registerBlocks("deepslate_ruby_ore", new Block(FabricBlockSettings.copyOf(Blocks.DEEPSLATE_DIAMOND_ORE)));
-    public static final Block RUBY_BLOCK = registerBlocks("ruby_block", new Block(FabricBlockSettings.copyOf(Blocks.DIAMOND_BLOCK)));
-
+    public static final Block RUBY_ORE = registerBlocks("ruby_ore", new Block(FabricBlockSettings.copyOf(Blocks.IRON_ORE)));
+    public static final Block DEEPSLATE_RUBY_ORE = registerBlocks("deepslate_ruby_ore", new Block(FabricBlockSettings.copyOf(Blocks.DEEPSLATE_IRON_ORE)));
+    public static final Block RUBY_BLOCK = registerBlocks("ruby_block", new Block(FabricBlockSettings.copyOf(Blocks.IRON_BLOCK)));
+    public static final Block TITANIUM_ORE = registerBlocks("titanium_ore", new Block(FabricBlockSettings.copyOf(Blocks.IRON_ORE)));
+    public static final Block DEEPSLATE_TITANIUM_ORE = registerBlocks("deepslate_titanium_ore", new Block(FabricBlockSettings.copyOf(Blocks.DEEPSLATE_IRON_ORE)));
+    public static final Block TITANIUM_BLOCK = registerBlocks("titanium_block", new Block(FabricBlockSettings.copyOf(Blocks.IRON_BLOCK)));
     public static Block registerBlocks(String name, Block block) {
         registerBlockItems(name, block);
         return Registry.register(Registries.BLOCK, new Identifier(RespawnEye.MODID, name), block);

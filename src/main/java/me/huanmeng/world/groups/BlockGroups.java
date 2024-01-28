@@ -20,6 +20,9 @@ public class BlockGroups {
                         entries.add(ReBlocks.RUBY_ORE);
                         entries.add(ReBlocks.DEEPSLATE_RUBY_ORE);
                         entries.add(ReBlocks.RUBY_BLOCK);
+                        entries.add(ReBlocks.TITANIUM_ORE);
+                        entries.add(ReBlocks.DEEPSLATE_TITANIUM_ORE);
+                        entries.add(ReBlocks.TITANIUM_BLOCK);
                     })
                     .build());
 

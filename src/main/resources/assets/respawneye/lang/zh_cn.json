@@ -36,5 +36,8 @@
 
   "block.respawneye.ruby_ore": "红宝石矿石",
   "block.respawneye.deepslate_ruby_ore": "深层红宝石矿石",
-  "block.respawneye.ruby_block": "红宝石块"
+  "block.respawneye.ruby_block": "红宝石块",
+  "block.respawneye.titanium_ore": "钛矿石",
+  "block.respawneye.deepslate_titanium_ore": "深层钛矿石",
+  "block.respawneye.titanium_block": "钛块"
 }
