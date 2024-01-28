@@ -1,9 +1,0 @@
-{
-  "type": "minecraft:blasting",
-  "ingredient": {
-    "item": "respawneye:ruby_ore"
-  },
-  "result": "respawneye:ruby",
-  "experience": 1,
-  "cookingtime": 100
-}
