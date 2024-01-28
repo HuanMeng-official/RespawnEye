@@ -1,5 +1,6 @@
 package me.huanmeng;
 
+import me.huanmeng.world.blocks.ReBlocks;
 import me.huanmeng.world.groups.ItemGroups;
 import me.huanmeng.world.items.ReItems;
 import net.fabricmc.api.ModInitializer;
@@ -16,6 +17,7 @@ public class RespawnEye implements ModInitializer {
 	public void onInitialize() {
 		LOGGER.info("Hello Fabric world!");
 		ReItems.registryItems();
+		ReBlocks.registryBlocks();
 		ItemGroups.registryGroup();
 	}
 }
