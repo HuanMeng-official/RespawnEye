@@ -1,6 +1,9 @@
 {
   "modmenu.descriptionTranslation.respawneye": "RespawnEye is a Fabric Mod based on Minecraft 1.20.4 and licensed under the MIT LICENSE",
+
   "ig.respawneye.item": "RespawnEye | Items",
+  "ig.respawneye.block": "RespawnEye | Blocks",
+
   "item.respawneye.ruby": "Ruby",
   "item.respawneye.salt": "Salt",
   "item.respawneye.tigers_eye_ingot": "Tiger's Eye Ingot",
@@ -29,5 +32,9 @@
   "item.respawneye.jumpy_bug_scale": "Jump Bug Scale",
   "item.respawneye.caterkiller_jaws": "CaterKiller Jaws",
   "item.respawneye.trex_tooth": "TRex Tooth",
-  "item.respawneye.sea_viper_tongue": "Sea Viper Tongue"
+  "item.respawneye.sea_viper_tongue": "Sea Viper Tongue",
+
+  "block.respawneye.ruby_ore": "Ruby Ore",
+  "block.respawneye.deepslate_ruby_ore": "Deepslate Ruby Ore",
+  "block.respawneye.ruby_block": "Block of Ruby"
 }

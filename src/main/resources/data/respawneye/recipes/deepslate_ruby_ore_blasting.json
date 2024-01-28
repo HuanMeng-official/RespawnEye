@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:blasting",
+  "ingredient": {
+    "item": "respawneye:deepslate_ruby_ore"
+  },
+  "result": "respawneye:ruby",
+  "experience": 1,
+  "cookingtime": 100
+}

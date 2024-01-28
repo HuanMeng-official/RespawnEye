@@ -51,6 +51,6 @@ public class ItemGroups {
                     .build());
 
     public static void registryGroup() {
-        RespawnEye.LOGGER.info("Registering Group for " + RespawnEye.MODID);
+        RespawnEye.LOGGER.info("Registering ItemsGroup for " + RespawnEye.MODID);
     }
 }
