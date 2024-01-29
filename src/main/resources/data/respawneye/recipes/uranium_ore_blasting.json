@@ -1,9 +1,0 @@
-{
-  "type": "minecraft:blasting",
-  "ingredient": {
-    "item": "respawneye:uranium_ore"
-  },
-  "result": "respawneye:uranium_ingot",
-  "experience": 1,
-  "cookingtime": 100
-}
