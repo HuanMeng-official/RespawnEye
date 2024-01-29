@@ -1,9 +1,9 @@
 package me.huanmeng;
 
-import me.huanmeng.world.blocks.ReBlocks;
-import me.huanmeng.world.groups.BlockGroups;
-import me.huanmeng.world.groups.ItemGroups;
-import me.huanmeng.world.items.ReItems;
+import me.huanmeng.block.ReBlocks;
+import me.huanmeng.item.group.BlockGroups;
+import me.huanmeng.item.group.ItemGroups;
+import me.huanmeng.item.ReItems;
 import net.fabricmc.api.ModInitializer;
 
 import org.slf4j.Logger;

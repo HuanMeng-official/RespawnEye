@@ -39,5 +39,8 @@
   "block.respawneye.ruby_block": "Block of Ruby",
   "block.respawneye.titanium_ore": "Titanium Ore",
   "block.respawneye.deepslate_titanium_ore": "Deepslate Titanium Ore",
-  "block.respawneye.titanium_block": "Block of Titanium"
+  "block.respawneye.titanium_block": "Block of Titanium",
+  "block.respawneye.uranium_ore": "Uranium Ore",
+  "block.respawneye.deepslate_uranium_ore": "Deepslate Uranium Ore",
+  "block.respawneye.uranium_block": "Block of Uranium"
 }
