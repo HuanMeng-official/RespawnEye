@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "respawneye:uranium_ingot"
+    }
+  ],
+  "result": {
+    "item": "respawneye:uranium_nugget",
+    "count": 9
+  }
+}

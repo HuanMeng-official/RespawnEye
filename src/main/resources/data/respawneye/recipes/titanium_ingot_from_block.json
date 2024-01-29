@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "respawneye:titanium_block"
+    }
+  ],
+  "result": {
+    "item": "respawneye:titanium_ingot",
+    "count": 9
+  }
+}
