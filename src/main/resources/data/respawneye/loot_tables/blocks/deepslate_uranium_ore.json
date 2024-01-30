@@ -7,7 +7,7 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "respawneye:deepslate_uranium_ore"
+          "name": "respawneye:raw_uranium"
         }
       ],
       "conditions": [

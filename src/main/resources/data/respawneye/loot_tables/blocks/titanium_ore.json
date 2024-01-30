@@ -7,7 +7,7 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "respawneye:titanium_ore"
+          "name": "respawneye:raw_titanium"
         }
       ],
       "conditions": [

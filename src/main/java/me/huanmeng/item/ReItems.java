@@ -30,9 +30,11 @@ public class ReItems {
     public static final Item SEA_MONSTER_SCALE = registerItems("sea_monster_scale", new Item(new FabricItemSettings()));
     public static final Item SEA_VIPER_TONGUE = registerItems("sea_viper_tongue", new Item(new FabricItemSettings()));
     public static final Item TIGERS_EYE_INGOT = registerItems("tigers_eye_ingot", new Item(new FabricItemSettings()));
+    public static final Item RAW_TITANIUM = registerItems("raw_titanium", new Item(new FabricItemSettings()));
     public static final Item TITANIUM_INGOT = registerItems("titanium_ingot", new Item(new FabricItemSettings()));
     public static final Item TITANIUM_NUGGET = registerItems("titanium_nugget", new Item(new FabricItemSettings()));
     public static final Item TREX_TOOTH = registerItems("trex_tooth", new Item(new FabricItemSettings()));
+    public static final Item RAW_URANIUM = registerItems("raw_uranium", new Item(new FabricItemSettings()));
     public static final Item URANIUM_INGOT = registerItems("uranium_ingot", new Item(new FabricItemSettings()));
     public static final Item URANIUM_NUGGET = registerItems("uranium_nugget", new Item(new FabricItemSettings()));
     public static final Item VORTEX_EYE = registerItems("vortex_eye", new Item(new FabricItemSettings()));

@@ -38,10 +38,12 @@ public class ItemGroups {
                         entries.add(ReItems.QUEEN_SCALE);
                         entries.add(ReItems.SEA_VIPER_TONGUE);
                         entries.add(ReItems.SEA_MONSTER_SCALE);
+                        entries.add(ReItems.RAW_TITANIUM);
                         entries.add(ReItems.TITANIUM_NUGGET);
                         entries.add(ReItems.TITANIUM_INGOT);
                         entries.add(ReItems.TREX_TOOTH);
                         entries.add(ReItems.TIGERS_EYE_INGOT);
+                        entries.add(ReItems.RAW_URANIUM);
                         entries.add(ReItems.URANIUM_NUGGET);
                         entries.add(ReItems.URANIUM_INGOT);
                         entries.add(ReItems.VORTEX_EYE);
