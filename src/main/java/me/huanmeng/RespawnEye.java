@@ -2,6 +2,7 @@ package me.huanmeng;
 
 import me.huanmeng.block.ReBlocks;
 import me.huanmeng.item.group.BlockGroups;
+import me.huanmeng.item.group.FoodGroups;
 import me.huanmeng.item.group.ItemGroups;
 import me.huanmeng.item.ReItems;
 import net.fabricmc.api.ModInitializer;
@@ -21,5 +22,6 @@ public class RespawnEye implements ModInitializer {
 		ReBlocks.registryBlocks();
 		ItemGroups.registryGroup();
 		BlockGroups.registryGroup();
+		FoodGroups.registryGroup();
 	}
 }

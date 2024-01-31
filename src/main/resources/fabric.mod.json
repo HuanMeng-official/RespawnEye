@@ -10,9 +10,10 @@
 	],
 	"contact": {
 		"homepage": "",
-		"sources": "https://github.com/HuanMeng-official/RespawnEye"
+		"sources": "https://github.com/HuanMeng-official/RespawnEye",
+		"issues": "https://github.com/HuanMeng-official/RespawnEye/issues"
 	},
-	"license": "MIT LICENSE",
+	"license": "MIT",
 	"icon": "assets/respawneye/icon.png",
 	"environment": "*",
 	"entrypoints": {

@@ -1,8 +1,10 @@
 {
   "modmenu.descriptionTranslation.respawneye": "RespawnEye 是一个基于Minecraft 1.20.4开发的 Fabric Mod，同时它在MIT LICENSE下获得许可。",
+  "modmenu.nameTranslation.respawneye": "重生之眼",
 
   "ig.respawneye.item": "重生之眼 | 物品",
   "ig.respawneye.block": "重生之眼 | 方块",
+  "ig.respawneye.food": "重生之眼 | 食物",
 
   "item.respawneye.ruby": "红宝石",
   "item.respawneye.salt": "盐",
@@ -35,6 +37,7 @@
   "item.respawneye.sea_viper_tongue": "海毒蛇之舌",
   "item.respawneye.raw_titanium": "粗钛",
   "item.respawneye.raw_uranium": "粗铀",
+  "item.respawneye.spark_fish": "火花鱼",
 
   "block.respawneye.ruby_ore": "红宝石矿石",
   "block.respawneye.deepslate_ruby_ore": "深层红宝石矿石",

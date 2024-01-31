@@ -32,6 +32,5 @@ public class BlockGroups {
                     .build());
 
     public static void registryGroup() {
-        RespawnEye.LOGGER.info("Registering BlocksGroup for " + RespawnEye.MODID);
     }
 }

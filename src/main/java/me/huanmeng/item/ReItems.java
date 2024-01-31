@@ -40,6 +40,7 @@ public class ReItems {
     public static final Item VORTEX_EYE = registerItems("vortex_eye", new Item(new FabricItemSettings()));
     public static final Item WATER_DRAGON_SCALE = registerItems("water_dragon_scale", new Item(new FabricItemSettings()));
     public static final Item WORM_TOOTH = registerItems("worm_tooth", new Item(new FabricItemSettings()));
+    public static final Item SPARK_FISH = registerItems("spark_fish", new Item(new FabricItemSettings().food(ReFoods.SPARK_FISH)));
 
     public static Item registerItems(String name, Item item) {
         return Registry.register(Registries.ITEM, new Identifier(RespawnEye.MODID, name), item);
