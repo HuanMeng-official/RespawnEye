@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "aaa",
+    "aaa",
+    "aaa"
+  ],
+  "key": {
+    "a": {
+      "item": "respawneye:uranium_nugget"
+    }
+  },
+  "result": {
+    "item": "respawneye:uranium_ingot",
+    "count": 1
+  }
+}
