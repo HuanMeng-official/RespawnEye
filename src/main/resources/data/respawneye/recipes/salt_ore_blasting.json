@@ -1,9 +1,0 @@
-{
-  "type": "minecraft:blasting",
-  "ingredient": {
-    "item": "respawneye:salt_ore"
-  },
-  "result": "respawneye:salt",
-  "experience": 1,
-  "cookingtime": 100
-}
