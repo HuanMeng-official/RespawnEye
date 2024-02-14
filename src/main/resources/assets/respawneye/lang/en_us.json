@@ -5,6 +5,7 @@
   "ig.respawneye.item": "RespawnEye | Items",
   "ig.respawneye.block": "RespawnEye | Blocks",
   "ig.respawneye.food": "RespawnEye | Foods",
+  "ig.respawneye.tool": "RespawnEye | Tools",
 
   "item.respawneye.ruby": "Ruby",
   "item.respawneye.salt": "Salt",
@@ -38,6 +39,11 @@
   "item.respawneye.raw_titanium": "Raw Titanium",
   "item.respawneye.raw_uranium": "Raw Uranium",
   "item.respawneye.spark_fish": "Spark Fish",
+  "item.respawneye.ruby_axe": "Ruby Axe",
+  "item.respawneye.ruby_pickaxe": "Ruby Pickaxe",
+  "item.respawneye.ruby_shovel": "Ruby Shovel",
+  "item.respawneye.ruby_hoe": "Ruby Hoe",
+  "item.respawneye.ruby_sword": "Ruby Sword",
 
   "block.respawneye.ruby_ore": "Ruby Ore",
   "block.respawneye.deepslate_ruby_ore": "Deepslate Ruby Ore",

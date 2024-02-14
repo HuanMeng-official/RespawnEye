@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " r ",
+    " r ",
+    " i "
+  ],
+  "key": {
+    "r": {
+      "item": "respawneye:ruby"
+    },
+    "i": {
+      "item": "minecraft:stick"
+    }
+  },
+  "result": {
+    "item": "respawneye:ruby_sword",
+    "count": 1
+  }
+}

@@ -5,6 +5,7 @@
   "ig.respawneye.item": "重生之眼 | 物品",
   "ig.respawneye.block": "重生之眼 | 方块",
   "ig.respawneye.food": "重生之眼 | 食物",
+  "ig.respawneye.tool": "重生之眼 | 工具",
 
   "item.respawneye.ruby": "红宝石",
   "item.respawneye.salt": "盐",
@@ -38,6 +39,11 @@
   "item.respawneye.raw_titanium": "粗钛",
   "item.respawneye.raw_uranium": "粗铀",
   "item.respawneye.spark_fish": "火花鱼",
+  "item.respawneye.ruby_axe": "红宝石斧",
+  "item.respawneye.ruby_pickaxe": "红宝石镐",
+  "item.respawneye.ruby_shovel": "红宝石铲",
+  "item.respawneye.ruby_hoe": "红宝石锄",
+  "item.respawneye.ruby_sword": "红宝石剑",
 
   "block.respawneye.ruby_ore": "红宝石矿石",
   "block.respawneye.deepslate_ruby_ore": "深层红宝石矿石",
