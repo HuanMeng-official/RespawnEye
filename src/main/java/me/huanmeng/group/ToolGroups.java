@@ -22,6 +22,11 @@ public class ToolGroups {
                         entries.add(ReTools.RUBY_SHOVEL);
                         entries.add(ReTools.RUBY_HOE);
                         entries.add(ReTools.RUBY_SWORD);
+                        entries.add(ReTools.AMETHYST_AXE);
+                        entries.add(ReTools.AMETHYST_PICKAXE);
+                        entries.add(ReTools.AMETHYST_SHOVEL);
+                        entries.add(ReTools.AMETHYST_HOE);
+                        entries.add(ReTools.AMETHYST_SWORD);
                     })
                     .build());
 

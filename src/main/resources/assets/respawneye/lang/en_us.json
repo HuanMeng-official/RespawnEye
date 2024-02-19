@@ -44,6 +44,11 @@
   "item.respawneye.ruby_shovel": "Ruby Shovel",
   "item.respawneye.ruby_hoe": "Ruby Hoe",
   "item.respawneye.ruby_sword": "Ruby Sword",
+  "item.respawneye.amethyst_axe": "Amethyst Axe",
+  "item.respawneye.amethyst_pickaxe": "Amethyst Pickaxe",
+  "item.respawneye.amethyst_shovel": "Amethyst Shovel",
+  "item.respawneye.amethyst_hoe": "Amethyst Hoe",
+  "item.respawneye.amethyst_sword": "Amethyst Sword",
 
   "block.respawneye.ruby_ore": "Ruby Ore",
   "block.respawneye.deepslate_ruby_ore": "Deepslate Ruby Ore",

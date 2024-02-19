@@ -1,12 +1,14 @@
 package me.huanmeng.item;
 
+import net.minecraft.item.Items;
 import net.minecraft.item.ToolMaterial;
 import net.minecraft.recipe.Ingredient;
 
 import java.util.function.Supplier;
 
 public enum ItemMaterial implements ToolMaterial {
-    RUBY(3, 1500, 7.0F, 18.0F, 13, () -> Ingredient.ofItems(ReItems.RUBY));
+    RUBY(3, 1500, 7.0F, 18.0F, 13, () -> Ingredient.ofItems(ReItems.RUBY)),
+    AMETHYST(3, 2000, 6.0F, 13.0F, 12, () -> Ingredient.ofItems(Items.AMETHYST_SHARD));
 
     private final int miningLevel;
     private final int itemDurability;

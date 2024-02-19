@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " r ",
+    " i ",
+    " i "
+  ],
+  "key": {
+    "r": {
+      "item": "minecraft:amethyst_shard"
+    },
+    "i": {
+      "item": "minecraft:stick"
+    }
+  },
+  "result": {
+    "item": "respawneye:amethyst_shovel",
+    "count": 1
+  }
+}
