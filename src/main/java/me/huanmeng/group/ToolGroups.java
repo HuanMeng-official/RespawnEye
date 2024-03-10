@@ -27,6 +27,11 @@ public class ToolGroups {
                         entries.add(ReTools.AMETHYST_SHOVEL);
                         entries.add(ReTools.AMETHYST_HOE);
                         entries.add(ReTools.AMETHYST_SWORD);
+                        entries.add(ReTools.ULTIMATE_AXE);
+                        entries.add(ReTools.ULTIMATE_PICKAXE);
+                        entries.add(ReTools.ULTIMATE_SHOVEL);
+                        entries.add(ReTools.ULTIMATE_HOE);
+                        entries.add(ReTools.ULTIMATE_SWORD);
                     })
                     .build());
 

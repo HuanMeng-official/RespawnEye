@@ -49,6 +49,11 @@
   "item.respawneye.amethyst_shovel": "Amethyst Shovel",
   "item.respawneye.amethyst_hoe": "Amethyst Hoe",
   "item.respawneye.amethyst_sword": "Amethyst Sword",
+  "item.respawneye.ultimate_axe": "The Ultimate Axe",
+  "item.respawneye.ultimate_pickaxe": "The Ultimate Pickaxe",
+  "item.respawneye.ultimate_shovel": "The Ultimate Shovel",
+  "item.respawneye.ultimate_hoe": "The Ultimate Hoe",
+  "item.respawneye.ultimate_sword": "The Ultimate Sword",
 
   "block.respawneye.ruby_ore": "Ruby Ore",
   "block.respawneye.deepslate_ruby_ore": "Deepslate Ruby Ore",

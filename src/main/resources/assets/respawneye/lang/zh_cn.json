@@ -1,5 +1,5 @@
 {
-  "modmenu.descriptionTranslation.respawneye": "RespawnEye，一个专注于神话生物的Mod",
+  "modmenu.descriptionTranslation.respawneye": "重生之眼，一个专注于神话生物的模组",
   "modmenu.nameTranslation.respawneye": "重生之眼",
 
   "ig.respawneye.item": "重生之眼 | 物品",
@@ -49,6 +49,11 @@
   "item.respawneye.amethyst_shovel": "紫水晶铲",
   "item.respawneye.amethyst_hoe": "紫水晶锄",
   "item.respawneye.amethyst_sword": "紫水晶剑",
+  "item.respawneye.ultimate_axe": "极限斧",
+  "item.respawneye.ultimate_pickaxe": "极限镐",
+  "item.respawneye.ultimate_shovel": "极限铲",
+  "item.respawneye.ultimate_hoe": "极限锄",
+  "item.respawneye.ultimate_sword": "极限剑",
 
   "block.respawneye.ruby_ore": "红宝石矿石",
   "block.respawneye.deepslate_ruby_ore": "深层红宝石矿石",
