@@ -25,6 +25,7 @@ public class LootTablesProvider extends FabricBlockLootTableProvider {
         addDrop(ReBlocks.RUBY_BLOCK);
         addDrop(ReBlocks.TITANIUM_BLOCK);
         addDrop(ReBlocks.URANIUM_BLOCK);
+        addDrop(ReBlocks.TIGERS_EYE_BLOCK);
         addDrop(ReBlocks.SALT_ORE, saltDrop(ReBlocks.SALT_ORE, ReItems.SALT));
         addDrop(ReBlocks.DEEPSLATE_SALT_ORE, saltDrop(ReBlocks.DEEPSLATE_SALT_ORE, ReItems.SALT));
         addDrop(ReBlocks.RUBY_ORE, oreDrops(ReBlocks.RUBY_ORE, ReItems.RUBY));
@@ -33,6 +34,8 @@ public class LootTablesProvider extends FabricBlockLootTableProvider {
         addDrop(ReBlocks.DEEPSLATE_TITANIUM_ORE, oreDrops(ReBlocks.DEEPSLATE_TITANIUM_ORE, ReItems.RAW_TITANIUM));
         addDrop(ReBlocks.URANIUM_ORE, oreDrops(ReBlocks.URANIUM_ORE, ReItems.RAW_URANIUM));
         addDrop(ReBlocks.DEEPSLATE_URANIUM_ORE, oreDrops(ReBlocks.DEEPSLATE_URANIUM_ORE, ReItems.RAW_URANIUM));
+        addDrop(ReBlocks.TIGERS_EYE_ORE, oreDrops(ReBlocks.TIGERS_EYE_ORE, ReItems.RAW_TIGERS_EYE));
+        addDrop(ReBlocks.DEEPSLATE_TIGERS_EYE_ORE, oreDrops(ReBlocks.DEEPSLATE_TIGERS_EYE_ORE, ReItems.RAW_TIGERS_EYE));
     }
 
     public LootTable.Builder saltDrop(Block drop, Item item) {

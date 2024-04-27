@@ -11,6 +11,9 @@
     "respawneye:ruby_ore",
     "respawneye:titanium_ore",
     "respawneye:uranium_ore",
-    "respawneye:salt_ore"
+    "respawneye:salt_ore",
+    "respawneye:tigers_eye_ore",
+    "respawneye:deepslate_tigers_eye_ore",
+    "respawneye:tigers_eye_block"
   ]
 }

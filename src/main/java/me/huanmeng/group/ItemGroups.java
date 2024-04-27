@@ -43,6 +43,7 @@ public class ItemGroups {
                         entries.add(ReItems.TITANIUM_INGOT);
                         entries.add(ReItems.TREX_TOOTH);
                         entries.add(ReItems.TIGERS_EYE_INGOT);
+                        entries.add(ReItems.RAW_TIGERS_EYE);
                         entries.add(ReItems.RAW_URANIUM);
                         entries.add(ReItems.URANIUM_NUGGET);
                         entries.add(ReItems.URANIUM_INGOT);

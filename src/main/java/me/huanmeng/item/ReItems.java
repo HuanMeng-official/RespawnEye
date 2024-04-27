@@ -30,6 +30,7 @@ public class ReItems {
     public static final Item SEA_MONSTER_SCALE;
     public static final Item SEA_VIPER_TONGUE;
     public static final Item TIGERS_EYE_INGOT;
+    public static final Item RAW_TIGERS_EYE;
     public static final Item RAW_TITANIUM;
     public static final Item TITANIUM_INGOT;
     public static final Item TITANIUM_NUGGET;
@@ -64,6 +65,7 @@ public class ReItems {
         SEA_MONSTER_SCALE = registerItems("sea_monster_scale", new Item(new FabricItemSettings()));
         SEA_VIPER_TONGUE = registerItems("sea_viper_tongue", new Item(new FabricItemSettings()));
         TIGERS_EYE_INGOT = registerItems("tigers_eye_ingot", new Item(new FabricItemSettings()));
+        RAW_TIGERS_EYE  = registerItems("raw_tigers_eye", new Item(new FabricItemSettings()));
         RAW_TITANIUM = registerItems("raw_titanium", new Item(new FabricItemSettings()));
         TITANIUM_INGOT = registerItems("titanium_ingot", new Item(new FabricItemSettings()));
         TITANIUM_NUGGET = registerItems("titanium_nugget", new Item(new FabricItemSettings()));

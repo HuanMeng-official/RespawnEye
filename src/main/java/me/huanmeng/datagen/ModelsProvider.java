@@ -30,6 +30,9 @@ public class ModelsProvider extends FabricModelProvider {
         blockStateModelGenerator.registerSimpleCubeAll(ReBlocks.TITANIUM_ORE);
         blockStateModelGenerator.registerSimpleCubeAll(ReBlocks.URANIUM_BLOCK);
         blockStateModelGenerator.registerSimpleCubeAll(ReBlocks.URANIUM_ORE);
+        blockStateModelGenerator.registerSimpleCubeAll(ReBlocks.TIGERS_EYE_ORE);
+        blockStateModelGenerator.registerSimpleCubeAll(ReBlocks.TIGERS_EYE_BLOCK);
+        blockStateModelGenerator.registerSimpleCubeAll(ReBlocks.DEEPSLATE_TIGERS_EYE_ORE);
     }
 
     @Override
@@ -69,6 +72,7 @@ public class ModelsProvider extends FabricModelProvider {
         itemModelGenerator.register(ReItems.SEA_MONSTER_SCALE, Models.GENERATED);
         itemModelGenerator.register(ReItems.SEA_VIPER_TONGUE, Models.GENERATED);
         itemModelGenerator.register(ReItems.TIGERS_EYE_INGOT, Models.GENERATED);
+        itemModelGenerator.register(ReItems.RAW_TIGERS_EYE, Models.GENERATED);
         itemModelGenerator.register(ReItems.RAW_TITANIUM, Models.GENERATED);
         itemModelGenerator.register(ReItems.TITANIUM_INGOT, Models.GENERATED);
         itemModelGenerator.register(ReItems.TITANIUM_NUGGET, Models.GENERATED);

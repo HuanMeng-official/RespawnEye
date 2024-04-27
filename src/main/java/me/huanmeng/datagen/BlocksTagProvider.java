@@ -32,13 +32,19 @@ public class BlocksTagProvider extends FabricTagProvider.BlockTagProvider {
                 .add(ReBlocks.RUBY_ORE)
                 .add(ReBlocks.TITANIUM_ORE)
                 .add(ReBlocks.URANIUM_ORE)
-                .add(ReBlocks.SALT_ORE);
+                .add(ReBlocks.SALT_ORE)
+                .add(ReBlocks.TIGERS_EYE_ORE)
+                .add(ReBlocks.DEEPSLATE_TIGERS_EYE_ORE)
+                .add(ReBlocks.TIGERS_EYE_BLOCK);
 
         // Needs Pickaxe(Stone_Pickaxe) Tools
         getOrCreateTagBuilder(BlockTags.NEEDS_STONE_TOOL)
                 .add(ReBlocks.RUBY_ORE)
                 .add(ReBlocks.RUBY_BLOCK)
-                .add(ReBlocks.DEEPSLATE_RUBY_ORE);
+                .add(ReBlocks.DEEPSLATE_RUBY_ORE)
+                .add(ReBlocks.TIGERS_EYE_ORE)
+                .add(ReBlocks.DEEPSLATE_TIGERS_EYE_ORE)
+                .add(ReBlocks.TIGERS_EYE_BLOCK);
 
         // Needs Pickaxe(Iron_Pickaxe) Tools
         getOrCreateTagBuilder(BlockTags.NEEDS_IRON_TOOL)
@@ -56,7 +62,10 @@ public class BlocksTagProvider extends FabricTagProvider.BlockTagProvider {
         getOrCreateTagBuilder(TagKey.of(RegistryKeys.BLOCK, new Identifier("fabric", "needs_tool_level_1")))
                 .add(ReBlocks.RUBY_ORE)
                 .add(ReBlocks.RUBY_BLOCK)
-                .add(ReBlocks.DEEPSLATE_RUBY_ORE);
+                .add(ReBlocks.DEEPSLATE_RUBY_ORE)
+                .add(ReBlocks.TIGERS_EYE_ORE)
+                .add(ReBlocks.DEEPSLATE_TIGERS_EYE_ORE)
+                .add(ReBlocks.TIGERS_EYE_BLOCK);
 
         // Needs Pickaxe(Iron_Pickaxe) Tools
         getOrCreateTagBuilder(TagKey.of(RegistryKeys.BLOCK, new Identifier("fabric", "needs_tool_level_2")))

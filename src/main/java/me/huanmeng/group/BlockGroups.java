@@ -28,6 +28,9 @@ public class BlockGroups {
                         entries.add(ReBlocks.URANIUM_BLOCK);
                         entries.add(ReBlocks.SALT_ORE);
                         entries.add(ReBlocks.DEEPSLATE_SALT_ORE);
+                        entries.add(ReBlocks.TIGERS_EYE_ORE);
+                        entries.add(ReBlocks.DEEPSLATE_TIGERS_EYE_ORE);
+                        entries.add(ReBlocks.TIGERS_EYE_BLOCK);
                     })
                     .build());
 

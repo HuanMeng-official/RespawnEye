@@ -25,6 +25,9 @@ public class ReBlocks {
     public static final Block URANIUM_BLOCK;
     public static final Block SALT_ORE;
     public static final Block DEEPSLATE_SALT_ORE;
+    public static final Block TIGERS_EYE_ORE;
+    public static final Block DEEPSLATE_TIGERS_EYE_ORE;
+    public static final Block TIGERS_EYE_BLOCK;
 
     static {
         RUBY_ORE = registerBlocks("ruby_ore", new ExperienceDroppingBlock(UniformIntProvider.create(2, 5), FabricBlockSettings.copyOf(Blocks.IRON_ORE).strength(2.5F, 2.5F)));
@@ -38,6 +41,9 @@ public class ReBlocks {
         URANIUM_BLOCK = registerBlocks("uranium_block", new Block(FabricBlockSettings.copyOf(Blocks.IRON_BLOCK)));
         SALT_ORE = registerBlocks("salt_ore", new Block(FabricBlockSettings.copyOf(Blocks.COAL_ORE)));
         DEEPSLATE_SALT_ORE = registerBlocks("deepslate_salt_ore", new Block(FabricBlockSettings.copyOf(Blocks.DEEPSLATE_COAL_ORE)));
+        TIGERS_EYE_ORE = registerBlocks("tigers_eye_ore", new Block(FabricBlockSettings.copyOf(Blocks.IRON_ORE)));
+        DEEPSLATE_TIGERS_EYE_ORE = registerBlocks("deepslate_tigers_eye_ore", new Block(FabricBlockSettings.copyOf(Blocks.DEEPSLATE_IRON_ORE)));
+        TIGERS_EYE_BLOCK = registerBlocks("tigers_eye_block", new Block(FabricBlockSettings.copyOf(Blocks.IRON_BLOCK)));
     }
     
     public static Block registerBlocks(String name, Block block) {
