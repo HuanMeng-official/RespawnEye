@@ -1,0 +1,34 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "minecraft:tigers_eye_block"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    },
+    "has_tigers_eye_ingot": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "respawneye:tigers_eye_ingot"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_tigers_eye_ingot"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "minecraft:tigers_eye_block"
+    ]
+  }
+}

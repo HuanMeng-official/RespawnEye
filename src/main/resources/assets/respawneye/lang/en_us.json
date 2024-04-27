@@ -63,6 +63,7 @@
   "item.respawneye.ultimate_shovel": "The Ultimate Shovel",
   "item.respawneye.ultimate_hoe": "The Ultimate Hoe",
   "item.respawneye.ultimate_sword": "The Ultimate Sword",
+  "item.respawneye.raw_tigers_eye": "Raw Tiger's Eye",
 
   "block.respawneye.ruby_ore": "Ruby Ore",
   "block.respawneye.deepslate_ruby_ore": "Deepslate Ruby Ore",
@@ -74,5 +75,8 @@
   "block.respawneye.deepslate_uranium_ore": "Deepslate Uranium Ore",
   "block.respawneye.uranium_block": "Block of Uranium",
   "block.respawneye.salt_ore": "Salt Ore",
-  "block.respawneye.deepslate_salt_ore": "Deepslate Salt Ore"
+  "block.respawneye.deepslate_salt_ore": "Deepslate Salt Ore",
+  "block.respawneye.tigers_eye_ore": "Tiger's Eye Ore",
+  "block.respawneye.deepslate_tigers_eye_ore": "Deepslate Tiger's Eye Ore",
+  "block.respawneye.tigers_eye_block": "Block of Tiger's Eye"
 }

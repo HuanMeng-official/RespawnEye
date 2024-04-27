@@ -24,8 +24,11 @@ public class RecipesProvider extends FabricRecipeProvider {
     @Override
     public void generate(RecipeExporter exporter) {
         offerSmelting(exporter, RUBY_SMELTABLES, RecipeCategory.MISC, ReItems.RUBY, 0.4f, 200, "ruby");
+        offerSmelting(exporter, TIGER_EYE_SMELTABLES, RecipeCategory.MISC, ReItems.TIGERS_EYE_INGOT, 0.4f, 200, "tigers_eye");
         offerBlasting(exporter, RUBY_SMELTABLES, RecipeCategory.MISC, ReItems.RUBY, 0.4f, 100, "ruby");
+        offerBlasting(exporter, TIGER_EYE_SMELTABLES, RecipeCategory.MISC, ReItems.TIGERS_EYE_INGOT, 0.4f, 100, "tigers_eye");
         offerReversibleCompactingRecipes(exporter, RecipeCategory.BUILDING_BLOCKS, ReItems.RUBY, RecipeCategory.DECORATIONS, ReBlocks.RUBY_BLOCK);
+        offerReversibleCompactingRecipes(exporter, RecipeCategory.BUILDING_BLOCKS, ReItems.TIGERS_EYE_INGOT, RecipeCategory.DECORATIONS, ReBlocks.TIGERS_EYE_BLOCK);
 
         ShapedRecipeJsonBuilder.create(RecipeCategory.MISC, ReTools.RUBY_AXE, 1).pattern("RR ").pattern("RI ").pattern(" I ").input('R', ReItems.RUBY).input('I', Items.STICK).criterion(hasItem(ReItems.RUBY), conditionsFromItem(ReItems.RUBY)).offerTo(exporter, new Identifier(getRecipeName(ReTools.RUBY_AXE)));
         ShapedRecipeJsonBuilder.create(RecipeCategory.MISC, ReTools.RUBY_PICKAXE, 1).pattern("RRR").pattern(" I ").pattern(" I ").input('R', ReItems.RUBY).input('I', Items.STICK).criterion(hasItem(ReItems.RUBY), conditionsFromItem(ReItems.RUBY)).offerTo(exporter, new Identifier(getRecipeName(ReTools.RUBY_PICKAXE)));
@@ -53,4 +56,5 @@ public class RecipesProvider extends FabricRecipeProvider {
     }
 
     private static final List<ItemConvertible> RUBY_SMELTABLES = List.of(ReBlocks.RUBY_ORE, ReBlocks.DEEPSLATE_RUBY_ORE);
+    private static final List<ItemConvertible> TIGER_EYE_SMELTABLES = List.of(ReBlocks.TIGERS_EYE_ORE, ReBlocks.DEEPSLATE_TIGERS_EYE_ORE, ReItems.RAW_TIGERS_EYE);
 }

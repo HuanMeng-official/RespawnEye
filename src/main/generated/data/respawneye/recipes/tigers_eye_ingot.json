@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "building",
+  "ingredients": [
+    {
+      "item": "respawneye:tigers_eye_block"
+    }
+  ],
+  "result": {
+    "count": 9,
+    "item": "respawneye:tigers_eye_ingot"
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:smelting",
+  "category": "misc",
+  "cookingtime": 200,
+  "experience": 0.4,
+  "group": "tigers_eye",
+  "ingredient": {
+    "item": "respawneye:tigers_eye_ore"
+  },
+  "result": "respawneye:tigers_eye_ingot"
+}

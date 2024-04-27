@@ -63,6 +63,7 @@
   "item.respawneye.ultimate_shovel": "极限铲",
   "item.respawneye.ultimate_hoe": "极限锄",
   "item.respawneye.ultimate_sword": "极限剑",
+  "item.respawneye.raw_tigers_eye": "粗虎眼石",
 
   "block.respawneye.ruby_ore": "红宝石矿石",
   "block.respawneye.deepslate_ruby_ore": "深层红宝石矿石",
@@ -74,5 +75,8 @@
   "block.respawneye.deepslate_uranium_ore": "深层铀矿石",
   "block.respawneye.uranium_block": "铀块",
   "block.respawneye.salt_ore": "盐矿石",
-  "block.respawneye.deepslate_salt_ore": "深层盐矿石"
+  "block.respawneye.deepslate_salt_ore": "深层盐矿石",
+  "block.respawneye.tigers_eye_ore": "虎眼石矿石",
+  "block.respawneye.deepslate_tigers_eye_ore": "深层虎眼石矿石",
+  "block.respawneye.tigers_eye_block": "虎眼石块"
 }
