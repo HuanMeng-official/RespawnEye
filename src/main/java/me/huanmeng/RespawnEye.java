@@ -5,6 +5,7 @@ import me.huanmeng.group.*;
 import me.huanmeng.item.ReArmor;
 import me.huanmeng.item.ReItems;
 import me.huanmeng.item.ReTools;
+import me.huanmeng.world.gen.ReWorldGeneration;
 import net.fabricmc.api.ModInitializer;
 
 import org.slf4j.Logger;
@@ -27,5 +28,6 @@ public class RespawnEye implements ModInitializer {
 		FoodGroups.registryGroup();
 		ToolGroups.registryGroup();
 		ArmorGroups.registryGroup();
+		ReWorldGeneration.generateModWorldGen();
 	}
 }
