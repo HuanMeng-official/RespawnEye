@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "#": {
+      "item": "respawneye:titanium_ingot"
+    }
+  },
+  "pattern": [
+    "#"
+  ],
+  "result": {
+    "count": 9,
+    "item": "respawneye:titanium_nugget"
+  }
+}
