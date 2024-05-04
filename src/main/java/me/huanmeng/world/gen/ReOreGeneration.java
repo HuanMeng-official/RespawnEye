@@ -10,5 +10,7 @@ public class ReOreGeneration {
     public static void generateOres(){
         BiomeModifications.addFeature(BiomeSelectors.foundInOverworld(), GenerationStep.Feature.UNDERGROUND_ORES, RePlacedFeatures.RUBY_ORE);
         BiomeModifications.addFeature(BiomeSelectors.foundInOverworld(), GenerationStep.Feature.UNDERGROUND_ORES, RePlacedFeatures.SALT_ORE);
+        BiomeModifications.addFeature(BiomeSelectors.foundInOverworld(), GenerationStep.Feature.UNDERGROUND_ORES, RePlacedFeatures.TITANIUM_ORE);
+        BiomeModifications.addFeature(BiomeSelectors.foundInOverworld(), GenerationStep.Feature.UNDERGROUND_ORES, RePlacedFeatures.URANIUM_ORE);
     }
 }

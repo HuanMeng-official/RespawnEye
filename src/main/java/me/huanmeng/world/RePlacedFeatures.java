@@ -18,6 +18,8 @@ public class RePlacedFeatures {
 
     public static final RegistryKey<PlacedFeature> RUBY_ORE = registerKey("ruby_ore_placed");
     public static final RegistryKey<PlacedFeature> SALT_ORE = registerKey("salt_ore_placed");
+    public static final RegistryKey<PlacedFeature> TITANIUM_ORE = registerKey("titanium_ore_placed");
+    public static final RegistryKey<PlacedFeature> URANIUM_ORE = registerKey("uranium_ore_placed");
 
     public static void boostrap(Registerable<PlacedFeature> context){
         var configuredFeatureRegistryEntryLookup = context.getRegistryLookup(RegistryKeys.CONFIGURED_FEATURE);
@@ -28,6 +30,12 @@ public class RePlacedFeatures {
         register(context, SALT_ORE, configuredFeatureRegistryEntryLookup.getOrThrow(ReConfiguredFeatures.SALT_ORE_KEY),
                 ReOrePlacement.modifiersWithCount(8,
                         HeightRangePlacementModifier.uniform(YOffset.fixed(-20), YOffset.fixed(70))));
+        register(context, TITANIUM_ORE, configuredFeatureRegistryEntryLookup.getOrThrow(ReConfiguredFeatures.TITANIUM_ORE_KEY),
+                ReOrePlacement.modifiersWithCount(6,
+                        HeightRangePlacementModifier.uniform(YOffset.fixed(-60), YOffset.fixed(25))));
+        register(context, URANIUM_ORE, configuredFeatureRegistryEntryLookup.getOrThrow(ReConfiguredFeatures.URANIUM_ORE_KEY),
+                ReOrePlacement.modifiersWithCount(5,
+                        HeightRangePlacementModifier.uniform(YOffset.fixed(-60), YOffset.fixed(20))));
     }
 
     public static RegistryKey<PlacedFeature> registerKey(String name) {
