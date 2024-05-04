@@ -17,13 +17,17 @@ import java.util.List;
 public class RePlacedFeatures {
 
     public static final RegistryKey<PlacedFeature> RUBY_ORE = registerKey("ruby_ore_placed");
+    public static final RegistryKey<PlacedFeature> SALT_ORE = registerKey("salt_ore_placed");
 
     public static void boostrap(Registerable<PlacedFeature> context){
         var configuredFeatureRegistryEntryLookup = context.getRegistryLookup(RegistryKeys.CONFIGURED_FEATURE);
 
         register(context, RUBY_ORE, configuredFeatureRegistryEntryLookup.getOrThrow(ReConfiguredFeatures.RUBY_ORE_KEY),
                 ReOrePlacement.modifiersWithCount(8,
-                        HeightRangePlacementModifier.uniform(YOffset.fixed(-50), YOffset.fixed(80))));
+                        HeightRangePlacementModifier.uniform(YOffset.fixed(-60), YOffset.fixed(60))));
+        register(context, SALT_ORE, configuredFeatureRegistryEntryLookup.getOrThrow(ReConfiguredFeatures.SALT_ORE_KEY),
+                ReOrePlacement.modifiersWithCount(8,
+                        HeightRangePlacementModifier.uniform(YOffset.fixed(-20), YOffset.fixed(70))));
     }
 
     public static RegistryKey<PlacedFeature> registerKey(String name) {

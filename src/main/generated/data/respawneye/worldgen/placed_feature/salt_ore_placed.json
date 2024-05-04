@@ -1,5 +1,5 @@
 {
-  "feature": "respawneye:ruby_ore",
+  "feature": "respawneye:salt_ore",
   "placement": [
     {
       "type": "minecraft:count",
@@ -13,10 +13,10 @@
       "height": {
         "type": "minecraft:uniform",
         "max_inclusive": {
-          "absolute": 60
+          "absolute": 70
         },
         "min_inclusive": {
-          "absolute": -60
+          "absolute": -20
         }
       }
     },

@@ -19,16 +19,24 @@ import java.util.List;
 public class ReConfiguredFeatures {
 
     public static final RegistryKey<ConfiguredFeature<?, ?>> RUBY_ORE_KEY = registerKey("ruby_ore");
+    public static final RegistryKey<ConfiguredFeature<?, ?>> TITANIUM_ORE_KEY = registerKey("titanium_ore");
+    public static final RegistryKey<ConfiguredFeature<?, ?>> URANIUM_ORE_KEY = registerKey("uranium_ore");
+    public static final RegistryKey<ConfiguredFeature<?, ?>> SALT_ORE_KEY = registerKey("salt_ore");
+    public static final RegistryKey<ConfiguredFeature<?, ?>> TIGERS_EYE_ORE_KEY = registerKey("tigers_eye_ore");
 
     public static void boostrap(Registerable<ConfiguredFeature<?,?>> context){
         RuleTest stonePlace = new TagMatchRuleTest(BlockTags.STONE_ORE_REPLACEABLES);
         RuleTest deepPlace = new TagMatchRuleTest(BlockTags.DEEPSLATE_ORE_REPLACEABLES);
 
-        List<OreFeatureConfig.Target> overWorld =
+        List<OreFeatureConfig.Target> RubyOverWorld =
                 List.of(OreFeatureConfig.createTarget(stonePlace, ReBlocks.RUBY_ORE.getDefaultState()),
-                OreFeatureConfig.createTarget(deepPlace, ReBlocks.DEEPSLATE_RUBY_ORE.getDefaultState()));
+                        OreFeatureConfig.createTarget(deepPlace, ReBlocks.DEEPSLATE_RUBY_ORE.getDefaultState()));
+        List<OreFeatureConfig.Target> SaltOverWorld =
+                List.of(OreFeatureConfig.createTarget(stonePlace, ReBlocks.SALT_ORE.getDefaultState()),
+                        OreFeatureConfig.createTarget(deepPlace, ReBlocks.DEEPSLATE_SALT_ORE.getDefaultState()));
 
-        register(context, RUBY_ORE_KEY, Feature.ORE, new OreFeatureConfig(overWorld, 8));
+        register(context, RUBY_ORE_KEY, Feature.ORE, new OreFeatureConfig(RubyOverWorld, 8));
+        register(context, SALT_ORE_KEY, Feature.ORE, new OreFeatureConfig(SaltOverWorld, 14));
     }
 
     public static RegistryKey<ConfiguredFeature<?, ?>> registerKey(String name) {
