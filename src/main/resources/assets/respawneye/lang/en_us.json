@@ -1,6 +1,8 @@
 {
   "modmenu.descriptionTranslation.respawneye": "RespawnEye, a Mod that focuses on mythical creatures",
   "modmenu.nameTranslation.respawneye": "RespawnEye",
+  "modmenu.modrinth": "Modrinth",
+  "modmenu.curseforge": "CurseForge",
 
   "ig.respawneye.item": "RespawnEye | Items",
   "ig.respawneye.block": "RespawnEye | Blocks",

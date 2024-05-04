@@ -9,9 +9,17 @@
 		"PangBai_dayo"
 	],
 	"contact": {
-		"homepage": "https://www.curseforge.com/minecraft/mc-mods/respawneye",
+		"homepage": "https://github.com/HuanMeng-official",
 		"sources": "https://github.com/HuanMeng-official/RespawnEye",
 		"issues": "https://github.com/HuanMeng-official/RespawnEye/issues"
+	},
+	"custom": {
+		"modmenu": {
+			"links": {
+				"modmenu.modrinth": "https://modrinth.com/mod/respawneye",
+				"modmenu.curseforge": "https://www.curseforge.com/minecraft/mc-mods/respawneye"
+			}
+		}
 	},
 	"license": "MIT",
 	"icon": "assets/respawneye/icon.png",
