@@ -7,9 +7,11 @@ import net.minecraft.recipe.Ingredient;
 import java.util.function.Supplier;
 
 public enum ItemMaterial implements ToolMaterial {
+
     RUBY(3, 1500, 7.0F, 18.0F, 13, () -> Ingredient.ofItems(ReItems.RUBY)),
     AMETHYST(3, 2000, 6.0F, 13.0F, 12, () -> Ingredient.ofItems(Items.AMETHYST_SHARD)),
-    TITANIUM(4, 3000, 7.0F, 38.0F, 14, () -> Ingredient.ofItems(ReItems.TITANIUM_INGOT));
+    TITANIUM(4, 3000, 7.0F, 38.0F, 14, () -> Ingredient.ofItems(ReItems.TITANIUM_INGOT)),
+    EMERALD(3, 1300, 5.0F, 8.0F, 40, () -> Ingredient.ofItems(Items.EMERALD));
 
     private final int miningLevel;
     private final int itemDurability;

@@ -37,6 +37,11 @@ public class ModelsProvider extends FabricModelProvider {
 
     @Override
     public void generateItemModels(ItemModelGenerator itemModelGenerator) {
+        itemModelGenerator.register(ReTools.EMERALD_AXE, Models.HANDHELD);
+        itemModelGenerator.register(ReTools.EMERALD_PICKAXE, Models.HANDHELD);
+        itemModelGenerator.register(ReTools.EMERALD_SHOVEL, Models.HANDHELD);
+        itemModelGenerator.register(ReTools.EMERALD_HOE, Models.HANDHELD);
+        itemModelGenerator.register(ReTools.EMERALD_SWORD, Models.HANDHELD);
         itemModelGenerator.register(ReTools.AMETHYST_AXE, Models.HANDHELD);
         itemModelGenerator.register(ReTools.AMETHYST_HOE, Models.HANDHELD);
         itemModelGenerator.register(ReTools.AMETHYST_SWORD, Models.HANDHELD);

@@ -24,6 +24,11 @@ public class ReTools {
     public static final Item ULTIMATE_SHOVEL;
     public static final Item ULTIMATE_HOE;
     public static final Item ULTIMATE_SWORD;
+    public static final Item EMERALD_AXE;
+    public static final Item EMERALD_PICKAXE;
+    public static final Item EMERALD_SHOVEL;
+    public static final Item EMERALD_HOE;
+    public static final Item EMERALD_SWORD;
 
     static {
         RUBY_AXE = registerTools("ruby_axe", new AxeItem(ItemMaterial.RUBY, 3, -3.0F, new FabricItemSettings()));
@@ -43,6 +48,12 @@ public class ReTools {
         ULTIMATE_SHOVEL = registerTools("ultimate_shovel", new ShovelItem(ItemMaterial.TITANIUM, -0.5F, -3.0F, new FabricItemSettings()));
         ULTIMATE_HOE = registerTools("ultimate_hoe", new HoeItem(ItemMaterial.TITANIUM, -38, 0.0F, new FabricItemSettings()));
         ULTIMATE_SWORD = registerTools("ultimate_sword", new SwordItem(ItemMaterial.TITANIUM, 1, -2.4F, new FabricItemSettings()));
+
+        EMERALD_AXE = registerTools("emerald_axe", new AxeItem(ItemMaterial.EMERALD, -1, -3.0F, new FabricItemSettings()));
+        EMERALD_PICKAXE = registerTools("emerald_pickaxe", new PickaxeItem(ItemMaterial.EMERALD, -5, -2.8F, new FabricItemSettings()));
+        EMERALD_SHOVEL = registerTools("emerald_shovel", new ShovelItem(ItemMaterial.EMERALD, -4.5F, -3.0F, new FabricItemSettings()));
+        EMERALD_HOE = registerTools("emerald_hoe", new HoeItem(ItemMaterial.EMERALD, -8, 0.0F, new FabricItemSettings()));
+        EMERALD_SWORD = registerTools("emerald_sword", new SwordItem(ItemMaterial.EMERALD, -3, -2.4F, new FabricItemSettings()));
     }
 
     public static Item registerTools(String name, Item item) {
