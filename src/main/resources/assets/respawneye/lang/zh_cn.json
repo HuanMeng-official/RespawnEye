@@ -71,6 +71,10 @@
   "item.respawneye.emerald_shovel": "绿宝石铲",
   "item.respawneye.emerald_hoe": "绿宝石锄",
   "item.respawneye.emerald_sword": "绿宝石剑",
+  "item.respawneye.emerald_helmet": "绿宝石头盔",
+  "item.respawneye.emerald_chestplate": "绿宝石胸甲",
+  "item.respawneye.emerald_leggings": "绿宝石护腿",
+  "item.respawneye.emerald_boots": "绿宝石靴子",
 
   "block.respawneye.ruby_ore": "红宝石矿石",
   "block.respawneye.deepslate_ruby_ore": "深层红宝石矿石",

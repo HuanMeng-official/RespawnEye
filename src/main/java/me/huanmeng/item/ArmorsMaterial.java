@@ -12,8 +12,9 @@ import java.util.function.Supplier;
 
 public enum ArmorsMaterial implements ArmorMaterial {
 
-    RUBY("ruby", 38, new int[]{4,9,8,4}, 23, SoundEvents.ITEM_ARMOR_EQUIP_DIAMOND, 2f, 0.1f, () -> Ingredient.ofItems(ReItems.RUBY)),
-    AMETHYST("amethyst", 35, new int[]{4,8,7,3}, 20, SoundEvents.ITEM_ARMOR_EQUIP_DIAMOND, 1.5f, 0.1f, () -> Ingredient.ofItems(Items.AMETHYST_SHARD));
+    RUBY("ruby", 38, new int[]{4,9,8,4}, 23, SoundEvents.ITEM_ARMOR_EQUIP_DIAMOND, 2f, 0f, () -> Ingredient.ofItems(ReItems.RUBY)),
+    AMETHYST("amethyst", 35, new int[]{4,8,7,3}, 20, SoundEvents.ITEM_ARMOR_EQUIP_DIAMOND, 1.5f, 0f, () -> Ingredient.ofItems(Items.AMETHYST_SHARD)),
+    EMERALD("emerald", 37, new int[]{5,8,6,4}, 34, SoundEvents.ITEM_ARMOR_EQUIP_DIAMOND, 2f, 0f, () -> Ingredient.ofItems(Items.EMERALD));
 
     private final String name;
     private final int durabilityMultiplier;

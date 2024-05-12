@@ -8,6 +8,7 @@ import net.fabricmc.fabric.api.datagen.v1.FabricDataOutput;
 import net.fabricmc.fabric.api.datagen.v1.provider.FabricRecipeProvider;
 import net.minecraft.data.server.recipe.RecipeExporter;
 import net.minecraft.data.server.recipe.ShapedRecipeJsonBuilder;
+import net.minecraft.item.Item;
 import net.minecraft.item.ItemConvertible;
 import net.minecraft.item.Items;
 import net.minecraft.recipe.book.RecipeCategory;
@@ -59,6 +60,12 @@ public class RecipesProvider extends FabricRecipeProvider {
         ShapedRecipeJsonBuilder.create(RecipeCategory.MISC, ReItems.TITANIUM_NUGGET, 9).pattern("#").input('#', ReItems.TITANIUM_INGOT).criterion(hasItem(ReItems.TITANIUM_NUGGET), conditionsFromItem(ReItems.TITANIUM_INGOT)).offerTo(exporter, new Identifier(MODID + "titanium_nugget_form_titanium_ingot"));
         ShapedRecipeJsonBuilder.create(RecipeCategory.MISC, ReItems.URANIUM_INGOT, 1).pattern("###").pattern("###").pattern("###").input('#', ReItems.URANIUM_NUGGET).criterion(hasItem(ReItems.URANIUM_INGOT), conditionsFromItem(ReItems.URANIUM_NUGGET)).offerTo(exporter, new Identifier(MODID + "uranium_ingot_form_uranium_nugget"));
         ShapedRecipeJsonBuilder.create(RecipeCategory.MISC, ReItems.URANIUM_NUGGET, 9).pattern("#").input('#', ReItems.URANIUM_INGOT).criterion(hasItem(ReItems.URANIUM_INGOT), conditionsFromItem(ReItems.URANIUM_NUGGET)).offerTo(exporter, new Identifier(MODID + "uranium_nugget_form_uranium_ingot"));
+        ShapedRecipeJsonBuilder.create(RecipeCategory.MISC, ReArmor.EMERALD_HELMET, 1).pattern("###").pattern("# #").input('#', Items.EMERALD).criterion(hasItem(Items.EMERALD), conditionsFromItem(Items.EMERALD)).offerTo(exporter, new Identifier(getRecipeName(ReArmor.EMERALD_HELMET)));
+        ShapedRecipeJsonBuilder.create(RecipeCategory.MISC, ReArmor.EMERALD_CHESTPLATE, 1).pattern("# #").pattern("###").pattern("###").input('#', Items.EMERALD).criterion(hasItem(Items.EMERALD), conditionsFromItem(Items.EMERALD)).offerTo(exporter, new Identifier(getRecipeName(ReArmor.EMERALD_CHESTPLATE)));
+        ShapedRecipeJsonBuilder.create(RecipeCategory.MISC, ReArmor.EMERALD_LEGGINGS, 1).pattern("###").pattern("# #").pattern("# #").input('#', Items.EMERALD).criterion(hasItem(Items.EMERALD), conditionsFromItem(Items.EMERALD)).offerTo(exporter, new Identifier(getRecipeName(ReArmor.EMERALD_LEGGINGS)));
+        ShapedRecipeJsonBuilder.create(RecipeCategory.MISC, ReArmor.EMERALD_BOOTS, 1).pattern("# #").pattern("# #").input('#', Items.EMERALD).criterion(hasItem(Items.EMERALD), conditionsFromItem(Items.EMERALD)).offerTo(exporter, new Identifier(getRecipeName(ReArmor.EMERALD_BOOTS)));
+        ShapedRecipeJsonBuilder.create(RecipeCategory.MISC, ReTools.EMERALD_AXE, 1).pattern("## ").pattern("#I ").pattern(" I ").input('#', Items.EMERALD).input('I', Items.STICK).criterion(hasItem(Items.EMERALD), conditionsFromItem(Items.EMERALD)).offerTo(exporter, new Identifier(getRecipeName(ReTools.EMERALD_AXE)));
+        
     }
 
     private static final String MODID = "respawneye:";
