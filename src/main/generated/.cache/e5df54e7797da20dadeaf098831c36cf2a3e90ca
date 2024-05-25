@@ -1,5 +1,6 @@
-// 1.20.4	2024-05-12T12:06:33.1219353	RespawnEye/Recipes
+// 1.20.4	2024-05-26T06:18:28.3041697	RespawnEye/Recipes
 b195c1f03ecb2c5a6fb3169123a5504d9d7ad68a data\respawneye\recipes\ruby_from_blasting_ruby_ore.json
+b24c9a0bf1e961bf04f793d992898b8b9bb017ea data\respawneye\recipes\emerald_axe.json
 03af9260c95922e0e078ffdc7219b9573dba3bbd data\respawneye\advancements\recipes\misc\ultimate_sword.json
 3a57a02d2a5381e7f99774a23da293ad648c3329 data\respawneye\advancements\recipes\misc\titanium_nugget_form_titanium_ingot.json
 17ede4c8b03cf8f294314355811ed4f6591064e8 data\respawneye\recipes\titanium_block.json
@@ -34,6 +35,7 @@ db98418c79aa889fdd21e9cd280c0b72b157f2ae data\respawneye\recipes\tigers_eye_ingo
 7c5c2c98c9f0a4531f368966698ddeea29609b7d data\respawneye\recipes\ultimate_shovel.json
 d6aa1452ee1c2a7eebc6d961651fd8fa7f8215f7 data\respawneye\advancements\recipes\misc\tigers_eye_ingot_from_smelting_tigers_eye_ore.json
 0bd0e802e011f8e06865bc2a90255b806a4fa030 data\respawneye\recipes\ruby_leggings.json
+74466d518ea054ddce8cc1be5169b281eb2ba3a7 data\respawneye\advancements\recipes\misc\emerald_axe.json
 1204301530ce1126ab510ea308e16fbacbd38099 data\respawneye\recipes\titanium_ingot.json
 037d39dd8da95da2c3bc0574c70ea399713f9aa6 data\respawneye\advancements\recipes\misc\ultimate_axe.json
 40340a5c7f53548c2275dcce791fe775d32c46b5 data\respawneye\advancements\recipes\misc\ultimate_hoe.json
