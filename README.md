@@ -2,44 +2,35 @@
 
 ![LOGO](./readme/icon/icon.png)
 
-## 🌏Supported Languages and license:
 [![EN](https://img.shields.io/badge/English-Click-blue)](./README.md)
 [![CN](https://img.shields.io/badge/简体中文-Click-blue)](./readme/README_zh.md)
 ![MIT](https://img.shields.io/badge/License-MIT-green)
-![Java](https://img.shields.io/badge/Java-100%25-orange)
-
-## 🤔What is RespawnEye?
-**RespawnEye** is a **Fabric** Mod based on Minecraft 1.20.4 and licensed under the MIT LICENSE.
-
-## 🎮How to install or use the mod?
-Install **Fabric Loader** and **Fabric API** and place this module in the **mods** folder.
-
-## 🔨Build RespawnEye:
-Clone the source code of this mod and import it into your Integrated development environment, then run **Build** and wait until the construction is completed.
-
-## 😯Feedback Bug/Submit Suggestions:
-### 🐛Feedback bug:
-> Having no error logs is like driving with your eyes closed.  
-
-So be sure to provide feedback along with the error log.  
-
-**For example:**  
-OS: Windows 10  
-CPU: Intel Core i9-13900k  
-Server: Fabric  
-Java: Oracle Java 17.0.5  
-ModVersion: 1.0
-
-Error log:  
-```Error: java.lang.xxx```
+![Java](https://img.shields.io/badge/Java-100%25-orange)  
+[![CF](https://img.shields.io/badge/CuresForge-RespawnEye-red)](https://www.curseforge.com/minecraft/mc-mods/respawneye)
+[![MR](https://img.shields.io/badge/Modrinth-RespawnEye-green)](https://modrinth.com/mod/respawneye)
 
 ---
-### 📌Submit suggestions: 
-> A detailed suggestion can make developers thank you for a long time.  
 
-**For example:**  
-You can send an [issue](https://github.com/HuanMeng-official/RespawnEye/issues) under this repository.
+## Introduction:
+*"Imagine how excited you would be to face a giant mythical creature? Well, are you ready for an amazing adventure?"*  
+RespawnEye is a Fabric Mod focused on exploration. Its main features include:  
+ - Hearty BOSS battle
+ - Unique mythical creature
+ - Generous treasure chest loot
+ - And more...
+##### (But it's not finished yet)
 
-## 📝Disclaimers:
-1. We suggest that you follow up on every version update for a better experience.
-2. This mod is strictly prohibited from reselling. If found, please report it promptly.
+---
+
+## Frequently asked questions:
+1. Why did it crash?  
+   Answer: Do not install OptiFine, it will cause various errors.  
+2. Can I use it with OptiFine?  
+   Answer: Yes, but I wouldn't recommend it.
+3. The mod has a Bug  
+   Answer: Send to the Issue page of this mod
+
+---
+
+## Feedback:
+You can submit [issues](https://github.com/HuanMeng-official/RespawnEye/issues) to my Github repository or send a problem description to this project.

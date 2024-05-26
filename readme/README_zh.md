@@ -2,44 +2,35 @@
 
 ![LOGO](./icon/icon.png)
 
-## 🌏支持的语言和协议：
 [![EN](https://img.shields.io/badge/English-Click-blue)](../README.md)
 [![CN](https://img.shields.io/badge/简体中文-Click-blue)](./README_zh.md)
 ![MIT](https://img.shields.io/badge/License-MIT-green)
-![Java](https://img.shields.io/badge/Java-100%25-orange)
-
-## 🤔什么是RespawnEye？
-**RespawnEye** 是一个基于Minecraft 1.20.4开发的 **Fabric** Mod，同时它在MIT LICENSE下获得许可。
-
-## 🎮如何安装或使用RespawnEye？
-安装 **Fabric Loader** 和 **Fabric API** 并将本模组放入 **mods** 文件夹。
-
-## 🔨构建RespawnEye：
-克隆此模组的源代码并将其导入到您的集成开发环境中，然后运行 **Build** 并等待构建完成。
-
-## 😯反馈或提交建议：
-### 🐛反馈bug:
-> 没有错误日志无异于闭眼开车。
-
-所以请务必携带日志提交bug
-
-**例如:**  
-OS: Windows 10  
-CPU: Intel Core i9-13900k  
-Server: Fabric  
-Java: Oracle Java 17.0.5  
-ModVersion: 1.0
-
-错误日志:  
-```Error: java.lang.xxx```
+![Java](https://img.shields.io/badge/Java-100%25-orange)  
+[![CF](https://img.shields.io/badge/CuresForge-RespawnEye-red)](https://www.curseforge.com/minecraft/mc-mods/respawneye)
+[![MR](https://img.shields.io/badge/Modrinth-RespawnEye-green)](https://modrinth.com/mod/respawneye)
 
 ---
-### 📌提交建议:
-> 一个详细的建议可以让开发者感谢他很长时间。
 
-**例如:**  
-您可以提交一个 [issue](https://github.com/HuanMeng-official/RespawnEye/issues) 到这个存储库
+## 介绍：
+*“想象一下，在面对巨大的神话生物时，你会有多么兴奋？准备好开始一段奇妙的冒险了吗？”*
+RespawnEye 是一个专注于探索的 Fabric 模组。其主要特点如下：  
+ - 酣畅淋漓的 Boss 战
+ - 独特的神话生物
+ - 丰厚的探索奖励
+ - 以及更多！
+##### (但它还没有完成)
 
-## 📝免责声明：
-1. 我们建议您跟进每个版本更新以获得更好的体验
-2. 此模组严禁转售，如发现，请及时举报
+---
+
+## FAQ：
+1. 它为什么崩溃了？  
+回答：不要安装OptiFine，它会导致各种错误。
+2. 可以将它与 OptiFine 一起使用吗？  
+回答：可以，但我并不推荐。
+3. 我发现了个 Bug ！  
+   发送到这个 Mod 的 Issue 页面。
+
+---
+
+## 反馈：
+您可以将 [问题](https://github.com/HuanMeng-official/RespawnEye/issues) 提交到我的Github存储库或将问题描述发送到此项目。

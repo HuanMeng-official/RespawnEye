@@ -3,7 +3,7 @@
 	"id": "respawneye",
 	"version": "${version}",
 	"name": "RespawnEye",
-	"description": "RespawnEye is a Fabric Mod based on Minecraft 1.20.4 and licensed under the MIT LICENSE",
+	"description": "RespawnEye, a Mod that focuses on mythical creatures.",
 	"authors": [
 		"HuanMeng_",
 		"PangBai_dayo"
