@@ -9,8 +9,6 @@
 [![CF](https://img.shields.io/badge/CuresForge-RespawnEye-red)](https://www.curseforge.com/minecraft/mc-mods/respawneye)
 [![MR](https://img.shields.io/badge/Modrinth-RespawnEye-green)](https://modrinth.com/mod/respawneye)
 
----
-
 ## 介绍：
 *“想象一下，在面对巨大的神话生物时，你会有多么兴奋？准备好开始一段奇妙的冒险了吗？”*
 RespawnEye 是一个专注于探索的 Fabric 模组。其主要特点如下：  
@@ -20,8 +18,6 @@ RespawnEye 是一个专注于探索的 Fabric 模组。其主要特点如下：
  - 以及更多！
 ##### (但它还没有完成)
 
----
-
 ## FAQ：
 1. 它为什么崩溃了？  
 回答：不要安装OptiFine，它会导致各种错误。
@@ -29,8 +25,6 @@ RespawnEye 是一个专注于探索的 Fabric 模组。其主要特点如下：
 回答：可以，但我并不推荐。
 3. 我发现了个 Bug ！  
    发送到这个 Mod 的 Issue 页面。
-
----
 
 ## 反馈：
 您可以将 [问题](https://github.com/HuanMeng-official/RespawnEye/issues) 提交到我的Github存储库或将问题描述发送到此项目。
