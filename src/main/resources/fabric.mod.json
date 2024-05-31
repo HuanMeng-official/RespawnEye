@@ -5,8 +5,7 @@
 	"name": "RespawnEye",
 	"description": "RespawnEye, a Mod that focuses on mythical creatures.",
 	"authors": [
-		"HuanMeng_",
-		"PangBai_dayo"
+		"HuanMeng_"
 	],
 	"contact": {
 		"homepage": "https://github.com/HuanMeng-official",
@@ -16,6 +15,7 @@
 	"custom": {
 		"modmenu": {
 			"links": {
+				"modmenu.bilibili": "https://space.bilibili.com/626446902",
 				"modmenu.modrinth": "https://modrinth.com/mod/respawneye",
 				"modmenu.curseforge": "https://www.curseforge.com/minecraft/mc-mods/respawneye"
 			}
