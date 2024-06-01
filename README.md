@@ -16,7 +16,7 @@ RespawnEye is a Fabric Mod focused on exploration. Its main features include:
  - Unique mythical creature
  - Generous treasure chest loot
  - And more...
-##### (But it's not finished yet)
+##### The Branch is testing....
 
 ## Frequently asked questions:
 1. Why did it crash?  
