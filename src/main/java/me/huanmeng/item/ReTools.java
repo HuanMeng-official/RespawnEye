@@ -1,7 +1,6 @@
 package me.huanmeng.item;
 
 import me.huanmeng.RespawnEye;
-import net.fabricmc.fabric.api.item.v1.FabricItemSettings;
 import net.minecraft.item.*;
 import net.minecraft.registry.Registries;
 import net.minecraft.registry.Registry;
