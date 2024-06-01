@@ -14,7 +14,6 @@ public class RespawnEyeDataGenerator implements DataGeneratorEntrypoint {
 	public void onInitializeDataGenerator(FabricDataGenerator fabricDataGenerator) {
 		FabricDataGenerator.Pack pack = fabricDataGenerator.createPack();
 		pack.addProvider(BlocksTagProvider::new);
-		pack.addProvider(ItemsTagProvider::new);
 		pack.addProvider(LootTablesProvider::new);
 		pack.addProvider(ModelsProvider::new);
 		pack.addProvider(RecipesProvider::new);

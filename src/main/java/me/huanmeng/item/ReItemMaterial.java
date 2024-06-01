@@ -9,7 +9,7 @@ import net.minecraft.registry.tag.TagKey;
 import java.util.Objects;
 import java.util.function.Supplier;
 
-public enum ItemMaterial implements ToolMaterial {
+public enum ReItemMaterial implements ToolMaterial {
     RUBY(ReTags.Blocks.RUBY, 600, 7.0F, 2.0F, 12, () -> {return Ingredient.ofItems(ReItems.RUBY);});
 
     private final TagKey<Block> inverseTag;
@@ -19,7 +19,7 @@ public enum ItemMaterial implements ToolMaterial {
     private final int enchantability;
     private final Supplier<Ingredient> repairIngredient;
 
-    ItemMaterial(final TagKey inverseTag, final int itemDurability, final float miningSpeed, final float attackDamage, final int enchantability, Supplier<Ingredient> repairIngredient) {
+    ReItemMaterial(final TagKey inverseTag, final int itemDurability, final float miningSpeed, final float attackDamage, final int enchantability, Supplier<Ingredient> repairIngredient) {
         this.inverseTag = inverseTag;
         this.itemDurability = itemDurability;
         this.miningSpeed = miningSpeed;

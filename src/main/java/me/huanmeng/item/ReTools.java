@@ -30,11 +30,11 @@ public class ReTools {
 //    public static final Item EMERALD_SWORD;
 
     static {
-        RUBY_AXE = registerTools("ruby_axe", new AxeItem(ItemMaterial.RUBY, new Item.Settings().attributeModifiers(AxeItem.createAttributeModifiers(ItemMaterial.RUBY, 7, -3.0F))));
-        RUBY_PICKAXE = registerTools("ruby_pickaxe", new PickaxeItem(ItemMaterial.RUBY, new Item.Settings().attributeModifiers(PickaxeItem.createAttributeModifiers(ItemMaterial.RUBY, 2, -2.8F))));
-        RUBY_SHOVEL = registerTools("ruby_shovel", new ShovelItem(ItemMaterial.RUBY, new Item.Settings().attributeModifiers(ShovelItem.createAttributeModifiers(ItemMaterial.RUBY, 2.5F, -3.0F))));
-        RUBY_HOE = registerTools("ruby_hoe", new HoeItem(ItemMaterial.RUBY, new Item.Settings().attributeModifiers(HoeItem.createAttributeModifiers(ItemMaterial.RUBY, -2, 0.0F))));
-        RUBY_SWORD = registerTools("ruby_sword", new SwordItem(ItemMaterial.RUBY, new Item.Settings().attributeModifiers(SwordItem.createAttributeModifiers(ItemMaterial.RUBY, 4, -2.4F))));
+        RUBY_AXE = registerTools("ruby_axe", new AxeItem(ReItemMaterial.RUBY, new Item.Settings().attributeModifiers(AxeItem.createAttributeModifiers(ReItemMaterial.RUBY, 7, -3.0F))));
+        RUBY_PICKAXE = registerTools("ruby_pickaxe", new PickaxeItem(ReItemMaterial.RUBY, new Item.Settings().attributeModifiers(PickaxeItem.createAttributeModifiers(ReItemMaterial.RUBY, 2, -2.8F))));
+        RUBY_SHOVEL = registerTools("ruby_shovel", new ShovelItem(ReItemMaterial.RUBY, new Item.Settings().attributeModifiers(ShovelItem.createAttributeModifiers(ReItemMaterial.RUBY, 2.5F, -3.0F))));
+        RUBY_HOE = registerTools("ruby_hoe", new HoeItem(ReItemMaterial.RUBY, new Item.Settings().attributeModifiers(HoeItem.createAttributeModifiers(ReItemMaterial.RUBY, -2, 0.0F))));
+        RUBY_SWORD = registerTools("ruby_sword", new SwordItem(ReItemMaterial.RUBY, new Item.Settings().attributeModifiers(SwordItem.createAttributeModifiers(ReItemMaterial.RUBY, 4, -2.4F))));
 
 //        AMETHYST_AXE = registerTools("amethyst_axe", new AxeItem(ItemMaterial.AMETHYST, 6, -3.0F, new FabricItemSettings()));
 //        AMETHYST_PICKAXE = registerTools("amethyst_pickaxe", new PickaxeItem(ItemMaterial.AMETHYST, 1, -2.8F, new FabricItemSettings()));

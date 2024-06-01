@@ -22,21 +22,6 @@ public class ToolGroups {
                         entries.add(ReTools.RUBY_SHOVEL);
                         entries.add(ReTools.RUBY_HOE);
                         entries.add(ReTools.RUBY_SWORD);
-                        entries.add(ReTools.AMETHYST_AXE);
-                        entries.add(ReTools.AMETHYST_PICKAXE);
-                        entries.add(ReTools.AMETHYST_SHOVEL);
-                        entries.add(ReTools.AMETHYST_HOE);
-                        entries.add(ReTools.AMETHYST_SWORD);
-                        entries.add(ReTools.ULTIMATE_AXE);
-                        entries.add(ReTools.ULTIMATE_PICKAXE);
-                        entries.add(ReTools.ULTIMATE_SHOVEL);
-                        entries.add(ReTools.ULTIMATE_HOE);
-                        entries.add(ReTools.ULTIMATE_SWORD);
-                        entries.add(ReTools.EMERALD_AXE);
-                        entries.add(ReTools.EMERALD_PICKAXE);
-                        entries.add(ReTools.EMERALD_SHOVEL);
-                        entries.add(ReTools.EMERALD_HOE);
-                        entries.add(ReTools.EMERALD_SWORD);
                     })
                     .build());
 

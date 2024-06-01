@@ -1,7 +1,6 @@
 package me.huanmeng.datagen;
 
 import me.huanmeng.block.ReBlocks;
-import me.huanmeng.item.ReArmor;
 import me.huanmeng.item.ReItems;
 import me.huanmeng.item.ReTools;
 import net.fabricmc.fabric.api.datagen.v1.FabricDataOutput;
@@ -9,7 +8,6 @@ import net.fabricmc.fabric.api.datagen.v1.provider.FabricModelProvider;
 import net.minecraft.data.client.BlockStateModelGenerator;
 import net.minecraft.data.client.ItemModelGenerator;
 import net.minecraft.data.client.Models;
-import net.minecraft.item.ArmorItem;
 
 public class ModelsProvider extends FabricModelProvider {
 
@@ -37,26 +35,11 @@ public class ModelsProvider extends FabricModelProvider {
 
     @Override
     public void generateItemModels(ItemModelGenerator itemModelGenerator) {
-        itemModelGenerator.register(ReTools.EMERALD_AXE, Models.HANDHELD);
-        itemModelGenerator.register(ReTools.EMERALD_PICKAXE, Models.HANDHELD);
-        itemModelGenerator.register(ReTools.EMERALD_SHOVEL, Models.HANDHELD);
-        itemModelGenerator.register(ReTools.EMERALD_HOE, Models.HANDHELD);
-        itemModelGenerator.register(ReTools.EMERALD_SWORD, Models.HANDHELD);
-        itemModelGenerator.register(ReTools.AMETHYST_AXE, Models.HANDHELD);
-        itemModelGenerator.register(ReTools.AMETHYST_HOE, Models.HANDHELD);
-        itemModelGenerator.register(ReTools.AMETHYST_SWORD, Models.HANDHELD);
-        itemModelGenerator.register(ReTools.AMETHYST_SHOVEL, Models.HANDHELD);
-        itemModelGenerator.register(ReTools.AMETHYST_PICKAXE, Models.HANDHELD);
         itemModelGenerator.register(ReTools.RUBY_AXE, Models.HANDHELD);
         itemModelGenerator.register(ReTools.RUBY_HOE, Models.HANDHELD);
         itemModelGenerator.register(ReTools.RUBY_SWORD, Models.HANDHELD);
         itemModelGenerator.register(ReTools.RUBY_SHOVEL, Models.HANDHELD);
         itemModelGenerator.register(ReTools.RUBY_PICKAXE, Models.HANDHELD);
-        itemModelGenerator.register(ReTools.ULTIMATE_AXE, Models.HANDHELD);
-        itemModelGenerator.register(ReTools.ULTIMATE_HOE, Models.HANDHELD);
-        itemModelGenerator.register(ReTools.ULTIMATE_SWORD, Models.HANDHELD);
-        itemModelGenerator.register(ReTools.ULTIMATE_SHOVEL, Models.HANDHELD);
-        itemModelGenerator.register(ReTools.ULTIMATE_PICKAXE, Models.HANDHELD);
         itemModelGenerator.register(ReItems.RUBY, Models.GENERATED);
         itemModelGenerator.register(ReItems.BASILISK_SCALE, Models.GENERATED);
         itemModelGenerator.register(ReItems.CATERKILLER_JAWS, Models.GENERATED);
@@ -90,17 +73,5 @@ public class ModelsProvider extends FabricModelProvider {
         itemModelGenerator.register(ReItems.WORM_TOOTH, Models.GENERATED);
         itemModelGenerator.register(ReItems.SALT, Models.GENERATED);
         itemModelGenerator.register(ReItems.SPARK_FISH, Models.GENERATED);
-        itemModelGenerator.registerArmor((ArmorItem) ReArmor.RUBY_HELMET);
-        itemModelGenerator.registerArmor((ArmorItem) ReArmor.RUBY_CHESTPLATE);
-        itemModelGenerator.registerArmor((ArmorItem) ReArmor.RUBY_LEGGINGS);
-        itemModelGenerator.registerArmor((ArmorItem) ReArmor.RUBY_BOOTS);
-        itemModelGenerator.registerArmor((ArmorItem) ReArmor.AMETHYST_HELMET);
-        itemModelGenerator.registerArmor((ArmorItem) ReArmor.AMETHYST_CHESTPLATE);
-        itemModelGenerator.registerArmor((ArmorItem) ReArmor.AMETHYST_LEGGINGS);
-        itemModelGenerator.registerArmor((ArmorItem) ReArmor.AMETHYST_BOOTS);
-        itemModelGenerator.registerArmor((ArmorItem) ReArmor.EMERALD_HELMET);
-        itemModelGenerator.registerArmor((ArmorItem) ReArmor.EMERALD_CHESTPLATE);
-        itemModelGenerator.registerArmor((ArmorItem) ReArmor.EMERALD_LEGGINGS);
-        itemModelGenerator.registerArmor((ArmorItem) ReArmor.EMERALD_BOOTS);
     }
 }
