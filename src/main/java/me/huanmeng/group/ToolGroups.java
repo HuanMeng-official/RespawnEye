@@ -32,6 +32,7 @@ public class ToolGroups {
                         entries.add(ReTools.ULTIMATE_SHOVEL);
                         entries.add(ReTools.ULTIMATE_HOE);
                         entries.add(ReTools.ULTIMATE_SWORD);
+                        entries.add(ReTools.ULTIMATE_BOW);
                         entries.add(ReTools.EMERALD_AXE);
                         entries.add(ReTools.EMERALD_PICKAXE);
                         entries.add(ReTools.EMERALD_SHOVEL);

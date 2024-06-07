@@ -24,6 +24,7 @@ public class ReTools {
     public static final Item ULTIMATE_SHOVEL;
     public static final Item ULTIMATE_HOE;
     public static final Item ULTIMATE_SWORD;
+    public static final Item ULTIMATE_BOW;
     public static final Item EMERALD_AXE;
     public static final Item EMERALD_PICKAXE;
     public static final Item EMERALD_SHOVEL;
@@ -48,6 +49,7 @@ public class ReTools {
         ULTIMATE_SHOVEL = registerTools("ultimate_shovel", new ShovelItem(ItemMaterial.TITANIUM, 4.5F, -3.0F, new FabricItemSettings()));
         ULTIMATE_HOE = registerTools("ultimate_hoe", new HoeItem(ItemMaterial.TITANIUM, -3, 0.0F, new FabricItemSettings()));
         ULTIMATE_SWORD = registerTools("ultimate_sword", new SwordItem(ItemMaterial.TITANIUM, 6, -2.4F, new FabricItemSettings()));
+        ULTIMATE_BOW = registerTools("ultimate_bow", new BowItem(new FabricItemSettings().maxDamage(420)));
 
         EMERALD_AXE = registerTools("emerald_axe", new AxeItem(ItemMaterial.EMERALD, 8, -3.0F, new FabricItemSettings()));
         EMERALD_PICKAXE = registerTools("emerald_pickaxe", new PickaxeItem(ItemMaterial.EMERALD, 3, -2.8F, new FabricItemSettings()));
