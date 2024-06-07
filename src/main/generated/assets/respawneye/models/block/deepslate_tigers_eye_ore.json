@@ -1,6 +1,0 @@
-{
-  "parent": "minecraft:block/cube_all",
-  "textures": {
-    "all": "respawneye:block/deepslate_tigers_eye_ore"
-  }
-}
