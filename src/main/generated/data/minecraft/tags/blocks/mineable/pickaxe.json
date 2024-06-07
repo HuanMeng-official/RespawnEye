@@ -1,0 +1,19 @@
+{
+  "replace": false,
+  "values": [
+    "respawneye:ruby_block",
+    "respawneye:titanium_block",
+    "respawneye:uranium_block",
+    "respawneye:deepslate_ruby_ore",
+    "respawneye:deepslate_titanium_ore",
+    "respawneye:deepslate_uranium_ore",
+    "respawneye:deepslate_salt_ore",
+    "respawneye:ruby_ore",
+    "respawneye:titanium_ore",
+    "respawneye:uranium_ore",
+    "respawneye:salt_ore",
+    "respawneye:tigers_eye_ore",
+    "respawneye:deepslate_tigers_eye_ore",
+    "respawneye:tigers_eye_block"
+  ]
+}
