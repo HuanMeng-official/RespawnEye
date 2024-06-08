@@ -1,7 +1,8 @@
 package me.huanmeng.item;
 
-import me.huanmeng.util.ReTags;
+import me.huanmeng.util.ReBlockTags;
 import net.minecraft.block.Block;
+import net.minecraft.item.Items;
 import net.minecraft.item.ToolMaterial;
 import net.minecraft.recipe.Ingredient;
 import net.minecraft.registry.tag.TagKey;
@@ -10,7 +11,8 @@ import java.util.Objects;
 import java.util.function.Supplier;
 
 public enum ReItemMaterial implements ToolMaterial {
-    RUBY(ReTags.Blocks.RUBY, 600, 7.0F, 2.0F, 12, () -> {return Ingredient.ofItems(ReItems.RUBY);});
+    RUBY(ReBlockTags.RUBY, 600, 7.0F, 2.0F, 12, () -> {return Ingredient.ofItems(ReItems.RUBY);}),
+    AMETHYST(ReBlockTags.AMETHYST, 450, 6.5F, 2.0F, 9, () -> {return  Ingredient.ofItems(Items.AMETHYST_SHARD);});
 
     private final TagKey<Block> inverseTag;
     private final int itemDurability;

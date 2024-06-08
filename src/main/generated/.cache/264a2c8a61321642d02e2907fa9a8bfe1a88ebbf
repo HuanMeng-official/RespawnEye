@@ -1,4 +1,4 @@
-// 1.20.6	2024-06-01T13:09:53.9972848	RespawnEye/Model Definitions
+// 1.20.6	2024-06-08T13:30:56.5339759	RespawnEye/Model Definitions
 637779b606e84dc0a13322c5de6270f09b6629ac assets\respawneye\models\block\salt_ore.json
 3f1e6c8bc87d7ab8ec3032c9edbef62cbdbcc969 assets\respawneye\models\item\tigers_eye_block.json
 d31d69bd70715901865114541d89e95bf7cb6e7d assets\respawneye\blockstates\deepslate_tigers_eye_ore.json
@@ -6,6 +6,8 @@ d31d69bd70715901865114541d89e95bf7cb6e7d assets\respawneye\blockstates\deepslate
 d03df5e51e63152ca32bbd15e76e975972f103c0 assets\respawneye\models\item\peacock_feather.json
 1add27182d6c17b7b5a0f1a07f1ad10b086e3bd1 assets\respawneye\models\item\ruby_ore.json
 090058cb0e52d589bc3cfd2942e29f211049349d assets\respawneye\models\item\ruby_hoe.json
+e2fefed7458ab41f65836256b888e65516d54a41 assets\respawneye\models\item\amethyst_axe.json
+5e513a410018f50999a4c5288ab867af7f110598 assets\respawneye\models\item\amethyst_shovel.json
 2a61dbe2d4a5a9b9c51e565498ad96510bd43275 assets\respawneye\models\item\raw_uranium.json
 4211ade274301e5dda0a0719ffd5ff24033fa32d assets\respawneye\models\item\titanium_nugget.json
 0de2bd03135ca4a0158f2018b9700fcd4c7c5be8 assets\respawneye\models\item\basilisk_scale.json
@@ -21,6 +23,8 @@ e262468b50c2739c593a4827672a8e17c1def0bc assets\respawneye\blockstates\titanium_
 aa69962848510572434b93a4a186176481760af7 assets\respawneye\models\item\worm_tooth.json
 39d2d6cbea8977a409f0d80a24a9bc9d25c7bce6 assets\respawneye\models\item\ruby_axe.json
 bf10f935b5c835310b9c329f9b5b7058d2edccff assets\respawneye\models\item\sea_viper_tongue.json
+3cc330c4e252c10bc06dab0e52a9432a3f7f88dc assets\respawneye\models\item\amethyst_sword.json
+0a367763eff2e70b46e217646b311b0fbfff7e35 assets\respawneye\models\item\amethyst_hoe.json
 2499ff8a92f5890f6a3ccbdf6302e248b9c10419 assets\respawneye\models\item\ruby_shovel.json
 4c0f7709b638001ce51f586cb6ac844e0ee489d5 assets\respawneye\models\item\titanium_ore.json
 52f3608e7a4740c220962dabce9fc8b6ef7c7658 assets\respawneye\models\block\titanium_ore.json
@@ -31,6 +35,7 @@ f4b0507520e09bdce571a91b849dde17ac0b95fb assets\respawneye\models\block\tigers_e
 0679fa8a2e6678b4b96e9d60f45cab4038b20a53 assets\respawneye\models\item\uranium_ore.json
 9733b742ea965ebaa50a5975a8e7d1d39960fd2c assets\respawneye\models\item\mantis_claw.json
 5dbd1c85f64f126f0d5fe9ac91834785347903db assets\respawneye\models\item\uranium_nugget.json
+7bf881abba05ab7308e898dfcd656ef468424b58 assets\respawneye\models\item\amethyst_pickaxe.json
 d6bf81c5f2cb09d2b2bbc19acc8caab225b4d3f6 assets\respawneye\models\item\dead_stink_bug.json
 aa1692f295305644b169e58a5e053098bbb53fd7 assets\respawneye\models\block\uranium_block.json
 edaef322a6429cd914fe8a1753335a62d6d0ca09 assets\respawneye\models\item\deepslate_tigers_eye_ore.json
@@ -51,8 +56,8 @@ a5364d882edf6e8b0984edd6637e573bd1a78e5f assets\respawneye\models\item\deepslate
 23b9b297496a0aeb9dc128216edfa3ba4a9bd099 assets\respawneye\blockstates\deepslate_uranium_ore.json
 06fe2e3e5abaee6e83141e78a5a6d3a6af15d02a assets\respawneye\models\item\ruby.json
 4da12ecfcef880e66af3afc46abac84bfbd790fd assets\respawneye\blockstates\ruby_block.json
-c7b0d09d5e54335439d9fd76ea33b14edf0276c3 assets\respawneye\models\block\ruby_block.json
 f59894bcdf94d4c84fad4c7562388489ebaefc89 assets\respawneye\blockstates\tigers_eye_ore.json
+c7b0d09d5e54335439d9fd76ea33b14edf0276c3 assets\respawneye\models\block\ruby_block.json
 1cb176090c55123ce1691e27cb9ae711dd4cc402 assets\respawneye\models\item\crystal_shard.json
 c158a951190e7010dab581a72c5f4357d7495e5d assets\respawneye\blockstates\deepslate_salt_ore.json
 e4b16721c1f44aea56251044fafd505f2ac67e72 assets\respawneye\models\block\titanium_block.json

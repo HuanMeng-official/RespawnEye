@@ -40,6 +40,11 @@ public class ModelsProvider extends FabricModelProvider {
         itemModelGenerator.register(ReTools.RUBY_SWORD, Models.HANDHELD);
         itemModelGenerator.register(ReTools.RUBY_SHOVEL, Models.HANDHELD);
         itemModelGenerator.register(ReTools.RUBY_PICKAXE, Models.HANDHELD);
+        itemModelGenerator.register(ReTools.AMETHYST_AXE, Models.HANDHELD);
+        itemModelGenerator.register(ReTools.AMETHYST_PICKAXE, Models.HANDHELD);
+        itemModelGenerator.register(ReTools.AMETHYST_SHOVEL, Models.HANDHELD);
+        itemModelGenerator.register(ReTools.AMETHYST_SWORD, Models.HANDHELD);
+        itemModelGenerator.register(ReTools.AMETHYST_HOE, Models.HANDHELD);
         itemModelGenerator.register(ReItems.RUBY, Models.GENERATED);
         itemModelGenerator.register(ReItems.BASILISK_SCALE, Models.GENERATED);
         itemModelGenerator.register(ReItems.CATERKILLER_JAWS, Models.GENERATED);
