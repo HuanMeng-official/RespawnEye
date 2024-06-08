@@ -50,6 +50,11 @@ public class ModelsProvider extends FabricModelProvider {
         itemModelGenerator.register(ReTools.ULTIMATE_SWORD, Models.HANDHELD);
         itemModelGenerator.register(ReTools.ULTIMATE_SHOVEL, Models.HANDHELD);
         itemModelGenerator.register(ReTools.ULTIMATE_PICKAXE, Models.HANDHELD);
+        itemModelGenerator.register(ReTools.EMERALD_AXE, Models.HANDHELD);
+        itemModelGenerator.register(ReTools.EMERALD_HOE, Models.HANDHELD);
+        itemModelGenerator.register(ReTools.EMERALD_SWORD, Models.HANDHELD);
+        itemModelGenerator.register(ReTools.EMERALD_SHOVEL, Models.HANDHELD);
+        itemModelGenerator.register(ReTools.EMERALD_PICKAXE, Models.HANDHELD);
         itemModelGenerator.register(ReItems.RUBY, Models.GENERATED);
         itemModelGenerator.register(ReItems.BASILISK_SCALE, Models.GENERATED);
         itemModelGenerator.register(ReItems.CATERKILLER_JAWS, Models.GENERATED);

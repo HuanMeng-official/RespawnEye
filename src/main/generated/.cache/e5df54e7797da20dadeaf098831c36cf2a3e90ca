@@ -1,4 +1,4 @@
-// 1.20.6	2024-06-08T14:11:25.0317542	RespawnEye/Recipes
+// 1.20.6	2024-06-08T17:53:59.725923	RespawnEye/Recipes
 4a748865fc309fb68b6130f9671cd54938b8c888 data\respawneye\recipes\ruby_from_blasting_ruby_ore.json
 2523af11b661d09eb22613b76c7888203ab3c4c5 data\respawneye\recipes\ruby_from_smelting_deepslate_ruby_ore.json
 616a8c57febbd8cd1892de36fa1a8761426d97ba data\respawneye\advancements\recipes\misc\tigers_eye_ingot_from_smelting_raw_tigers_eye.json
@@ -30,8 +30,8 @@ a55dac0de7917f4655f7f0501b827414c81db198 data\respawneye\advancements\recipes\mi
 45a9754dce98ca507589bf81d7ad7f9589c7dd28 data\respawneye\advancements\recipes\misc\ruby_from_blasting_deepslate_ruby_ore.json
 7a2f372f4df8ebf2a8d0859b61ce4005e0114275 data\respawneye\advancements\recipes\misc\ruby_from_blasting_ruby_ore.json
 7c67c5ad26257f3db36c85f387dbda8a8f6b360b data\respawneye\recipes\tigers_eye_ingot_from_smelting_raw_tigers_eye.json
-9fdf59ab0242a06069d27c4725dc632a0a35a6d7 data\respawneye\recipes\amethyst_hoe.json
 45d2b773bcc2105ad5255d86c34247a6ca9ab163 data\respawneye\advancements\recipes\misc\amethyst_pickaxe.json
+9fdf59ab0242a06069d27c4725dc632a0a35a6d7 data\respawneye\recipes\amethyst_hoe.json
 1af9e8f48385a28d9d5f1ce4b1fbf3c59949c9a3 data\respawneye\recipes\ruby_axe.json
 8cccd734cd8575b7ec0b4a8f72be4d08152c5fe4 data\respawneye\recipes\ruby_block.json
 4d5c4facbd4173f653f4f92f86143bda03411501 data\respawneye\advancements\recipes\misc\uranium_nugget_form_uranium_ingot.json
