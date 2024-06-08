@@ -13,8 +13,8 @@
     }
   },
   "pattern": [
-    "TUT",
-    " U ",
+    "TT ",
+    "TU ",
     " I "
   ],
   "result": {
