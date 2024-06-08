@@ -1,6 +1,6 @@
-// 1.20.6	2024-06-08T17:53:59.7279164	RespawnEye/Tags for minecraft:block
-995aba76e173cc1a4be3b327a07a2157d421b97b data\minecraft\tags\blocks\needs_stone_tool.json
+// 1.20.6	2024-06-08T18:14:05.4953788	RespawnEye/Tags for minecraft:block
 60d57ad08cf079912755921278326622a913692b data\minecraft\tags\blocks\mineable\pickaxe.json
-995aba76e173cc1a4be3b327a07a2157d421b97b data\fabric\tags\blocks\needs_tool_level_1.json
+995aba76e173cc1a4be3b327a07a2157d421b97b data\minecraft\tags\blocks\needs_stone_tool.json
 cc6af31ee6c24e5d0532c6bd37149cca5706599c data\minecraft\tags\blocks\needs_iron_tool.json
+995aba76e173cc1a4be3b327a07a2157d421b97b data\fabric\tags\blocks\needs_tool_level_1.json
 cc6af31ee6c24e5d0532c6bd37149cca5706599c data\fabric\tags\blocks\needs_tool_level_2.json
