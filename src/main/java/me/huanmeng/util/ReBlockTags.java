@@ -11,8 +11,4 @@ public class ReBlockTags {
     public static TagKey<Block> createTag(String name) {
         return TagKey.of(RegistryKeys.BLOCK, new Identifier(RespawnEye.MODID, name));
     }
-
-    public static final TagKey<Block> RUBY = createTag("ruby");
-    public static final TagKey<Block> AMETHYST = createTag("amethyst");
-
 }
