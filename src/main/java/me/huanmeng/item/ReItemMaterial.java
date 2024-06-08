@@ -1,18 +1,19 @@
 package me.huanmeng.item;
 
-import me.huanmeng.util.ReBlockTags;
 import net.minecraft.block.Block;
 import net.minecraft.item.Items;
 import net.minecraft.item.ToolMaterial;
 import net.minecraft.recipe.Ingredient;
+import net.minecraft.registry.tag.BlockTags;
 import net.minecraft.registry.tag.TagKey;
 
 import java.util.Objects;
 import java.util.function.Supplier;
 
 public enum ReItemMaterial implements ToolMaterial {
-    RUBY(ReBlockTags.RUBY, 600, 7.0F, 2.0F, 12, () -> {return Ingredient.ofItems(ReItems.RUBY);}),
-    AMETHYST(ReBlockTags.AMETHYST, 450, 6.5F, 2.0F, 9, () -> {return  Ingredient.ofItems(Items.AMETHYST_SHARD);});
+    RUBY(BlockTags.INCORRECT_FOR_IRON_TOOL, 600, 7.0F, 2.0F, 12, () -> Ingredient.ofItems(ReItems.RUBY)),
+    AMETHYST(BlockTags.INCORRECT_FOR_IRON_TOOL, 450, 6.5F, 2.0F, 9, () -> Ingredient.ofItems(Items.AMETHYST_SHARD)),
+    TITANIUM(BlockTags.INCORRECT_FOR_NETHERITE_TOOL, 800, 8.0F, 3.0F, 16, () -> Ingredient.ofItems(ReItems.TITANIUM_INGOT));
 
     private final TagKey<Block> inverseTag;
     private final int itemDurability;
