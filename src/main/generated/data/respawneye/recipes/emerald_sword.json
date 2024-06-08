@@ -10,11 +10,11 @@
     }
   },
   "pattern": [
-    "RR ",
-    "RI ",
+    " R ",
+    " R ",
     " I "
   ],
   "result": {
-    "item": "respawneye:emerald_axe"
+    "item": "respawneye:emerald_sword"
   }
 }
