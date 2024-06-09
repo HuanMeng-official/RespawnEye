@@ -28,9 +28,6 @@
 		"main": [
 			"me.huanmeng.RespawnEye"
 		],
-		"client": [
-			"me.huanmeng.RespawnEyeClient"
-		],
 		"fabric-datagen": [
 			"me.huanmeng.RespawnEyeDataGenerator"
 		]
