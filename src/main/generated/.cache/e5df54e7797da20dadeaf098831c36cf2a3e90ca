@@ -1,4 +1,4 @@
-// 1.20.4	2024-06-08T23:37:00.3878566	RespawnEye/Recipes
+// 1.20.4	2024-06-09T14:32:47.8027364	RespawnEye/Recipes
 b195c1f03ecb2c5a6fb3169123a5504d9d7ad68a data\respawneye\recipes\ruby_from_blasting_ruby_ore.json
 ba52466f6a014374aef12a82e96404ad54facb77 data\respawneye\recipes\emerald_axe.json
 03af9260c95922e0e078ffdc7219b9573dba3bbd data\respawneye\advancements\recipes\misc\ultimate_sword.json
@@ -7,6 +7,7 @@ ba52466f6a014374aef12a82e96404ad54facb77 data\respawneye\recipes\emerald_axe.jso
 143d5fd7e88ade4728d2fb17ef379c5a268981a0 data\respawneye\recipes\ruby_sword.json
 6ae26832782dd1966c2bac129d779f08936c0f14 data\respawneye\recipes\tigers_eye_block.json
 4e0f3bba74983698380149730be43a2eb389380d data\respawneye\advancements\recipes\decorations\ruby_block.json
+ed85cc86b6436dcfd2f9399f44f9bf97985fc91c data\respawneye\recipes\ultimate_bow.json
 6c2a140c15199e22e250fa8df919c5edc0d9aa05 data\respawneye\advancements\recipes\misc\emerald_boots.json
 c7989ff4bb7f256f9fc791fc9625af33dcf805ed data\respawneye\advancements\recipes\misc\ruby_from_smelting_deepslate_ruby_ore.json
 5a85320e891ab72f6f1b392071818c1ae57cc0eb data\respawneye\advancements\recipes\misc\emerald_pickaxe.json
@@ -18,6 +19,7 @@ b95869282787131644c435a6eb5616c82d3eefed data\respawneye\advancements\recipes\mi
 60d6fc5ee6b41faeca96658e1de2407ed6dd80b5 data\respawneye\recipes\ruby_chestplate.json
 e5fd5ed1dc7fd4ab3d42898342baf121be409ca2 data\respawneye\advancements\recipes\misc\amethyst_chestplate.json
 c1cb70ebb20e0333aa17c3777a23a6fe361bb425 data\respawneye\advancements\recipes\misc\ruby_sword.json
+2d7e9109e3aced75e6a0e80605b3a9864fd001e7 data\respawneye\advancements\recipes\misc\ultimate_bow.json
 b6f58647650e7bd257f6200439f6d48cd6ed5737 data\respawneye\advancements\recipes\misc\amethyst_helmet.json
 5899153ef3666cc0fd792c1f4cab745e6653ee39 data\respawneye\advancements\recipes\misc\ruby_from_blasting_ruby_ore.json
 43ecad0a066c40aabdf9b29972a46805bd7f4590 data\respawneye\recipes\amethyst_hoe.json
