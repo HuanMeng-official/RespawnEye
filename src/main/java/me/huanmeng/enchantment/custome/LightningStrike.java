@@ -1,4 +1,4 @@
-package me.huanmeng.enchantment;
+package me.huanmeng.enchantment.custome;
 
 import net.minecraft.enchantment.Enchantment;
 import net.minecraft.enchantment.EnchantmentTarget;
