@@ -91,5 +91,7 @@
   "block.respawneye.deepslate_salt_ore": "Deepslate Salt Ore",
   "block.respawneye.tigers_eye_ore": "Tiger's Eye Ore",
   "block.respawneye.deepslate_tigers_eye_ore": "Deepslate Tiger's Eye Ore",
-  "block.respawneye.tigers_eye_block": "Block of Tiger's Eye"
+  "block.respawneye.tigers_eye_block": "Block of Tiger's Eye",
+
+  "enchantment.respawneye.lightning_strike": "Lightning Strike"
 }

@@ -1,13 +1,13 @@
 package me.huanmeng;
 
 import me.huanmeng.block.ReBlocks;
+import me.huanmeng.enchantment.ReEnchantments;
 import me.huanmeng.group.*;
 import me.huanmeng.item.ReArmor;
 import me.huanmeng.item.ReItems;
 import me.huanmeng.item.ReTools;
 import me.huanmeng.world.gen.ReWorldGeneration;
 import net.fabricmc.api.ModInitializer;
-
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
@@ -29,5 +29,6 @@ public class RespawnEye implements ModInitializer {
 		ToolGroups.registryGroup();
 		ArmorGroups.registryGroup();
 		ReWorldGeneration.generateModWorldGen();
+		ReEnchantments.registerEnchantments();
 	}
 }

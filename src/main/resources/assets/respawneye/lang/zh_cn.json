@@ -91,5 +91,7 @@
   "block.respawneye.deepslate_salt_ore": "深层盐矿石",
   "block.respawneye.tigers_eye_ore": "虎眼石矿石",
   "block.respawneye.deepslate_tigers_eye_ore": "深层虎眼石矿石",
-  "block.respawneye.tigers_eye_block": "虎眼石块"
+  "block.respawneye.tigers_eye_block": "虎眼石块",
+
+  "enchantment.respawneye.lightning_strike": "雷击"
 }
