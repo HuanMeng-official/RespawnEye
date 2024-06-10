@@ -13,7 +13,7 @@ import java.util.function.Supplier;
 public class ItemsGroup {
     public static final DeferredRegister<CreativeModeTab> TAB = DeferredRegister.create(Registries.CREATIVE_MODE_TAB, RespawnEye.MODID);
 
-    public static final Supplier<CreativeModeTab> ITEMS_TAB = TAB.register("items_bus",
+    public static final Supplier<CreativeModeTab> ITEMS_TAB = TAB.register("items_tab",
             () -> CreativeModeTab.builder()
                     .title(Component.translatable("ig.respawneye.item"))
                     .icon(() -> ReItems.RUBY.get().getDefaultInstance())

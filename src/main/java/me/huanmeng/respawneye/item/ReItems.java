@@ -41,7 +41,6 @@ public class ReItems {
     public static final DeferredItem<Item> VORTEX_EYE;
     public static final DeferredItem<Item> WATER_DRAGON_SCALE;
     public static final DeferredItem<Item> WORM_TOOTH;
-    public static final DeferredItem<Item> SPARK_FISH;
 
     static {
         RUBY = ITEMS.registerSimpleItem("ruby", new Item.Properties());
@@ -76,7 +75,6 @@ public class ReItems {
         VORTEX_EYE  = ITEMS.registerSimpleItem("vortex_eye", new Item.Properties());
         WATER_DRAGON_SCALE  = ITEMS.registerSimpleItem("water_dragon_scale", new Item.Properties());
         WORM_TOOTH = ITEMS.registerSimpleItem("worm_tooth", new Item.Properties());
-        SPARK_FISH = ITEMS.registerSimpleItem("spark_fish", new Item.Properties());
     }
 
     public static void registryItems(IEventBus eventBus) {
