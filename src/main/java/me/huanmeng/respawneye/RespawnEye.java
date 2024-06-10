@@ -1,6 +1,8 @@
 package me.huanmeng.respawneye;
 
 import com.mojang.logging.LogUtils;
+import me.huanmeng.respawneye.group.ItemsGroup;
+import me.huanmeng.respawneye.item.ReItems;
 import net.minecraft.client.Minecraft;
 import net.neoforged.api.distmarker.Dist;
 import net.neoforged.bus.api.IEventBus;
@@ -16,11 +18,13 @@ import org.slf4j.Logger;
 @Mod(RespawnEye.MODID)
 public class RespawnEye {
     public static final String MODID = "respawneye";
-    private static final Logger LOGGER = LogUtils.getLogger();
+    public static final Logger LOGGER = LogUtils.getLogger();
+
     public RespawnEye(IEventBus modEventBus) {
         modEventBus.addListener(this::commonSetup);
         // Registry Bus
-
+        ReItems.registryItems(modEventBus);
+        ItemsGroup.registryGroup(modEventBus);
         NeoForge.EVENT_BUS.register(this);
         modEventBus.addListener(this::addCreative);
     }
