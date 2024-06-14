@@ -3,8 +3,10 @@ package me.huanmeng.respawneye;
 import com.mojang.logging.LogUtils;
 import me.huanmeng.respawneye.group.FoodsGroup;
 import me.huanmeng.respawneye.group.ItemsGroup;
+import me.huanmeng.respawneye.group.ToolsGroup;
 import me.huanmeng.respawneye.item.ReFoods;
 import me.huanmeng.respawneye.item.ReItems;
+import me.huanmeng.respawneye.item.ReTools;
 import net.minecraft.client.Minecraft;
 import net.neoforged.api.distmarker.Dist;
 import net.neoforged.bus.api.IEventBus;
@@ -27,8 +29,10 @@ public class RespawnEye {
         // Registry Bus
         ReItems.registryItems(modEventBus);
         ReFoods.registryItems(modEventBus);
+        ReTools.registryTools(modEventBus);
         ItemsGroup.registryGroup(modEventBus);
         FoodsGroup.registryGroup(modEventBus);
+        ToolsGroup.registryGroup(modEventBus);
         NeoForge.EVENT_BUS.register(this);
         modEventBus.addListener(this::addCreative);
     }
