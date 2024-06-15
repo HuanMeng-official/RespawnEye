@@ -1,13 +1,17 @@
 package me.huanmeng.respawneye.item;
 
 import net.minecraft.util.LazyLoadedValue;
+import net.minecraft.world.item.Items;
 import net.minecraft.world.item.Tier;
 import net.minecraft.world.item.crafting.Ingredient;
 
 import java.util.function.Supplier;
 
 public enum ItemTiers implements Tier {
-    RUBY(2, 600, 7.0F, 2.0F, 12, () -> Ingredient.of(ReItems.RUBY.get()));
+    RUBY(2, 600, 7.0F, 2.0F, 12, () -> Ingredient.of(ReItems.RUBY.get())),
+    AMETHYST(2, 450, 6.5F, 2.0F, 9, () -> Ingredient.of(Items.AMETHYST_SHARD)),
+    TITANIUM(4, 800, 8.0F, 3.0F, 16, () -> Ingredient.of(ReItems.TITANIUM_INGOT)),
+    EMERALD(3, 650, 7.5F, 2.0F, 22, () -> Ingredient.of(Items.EMERALD));
 
     private final int level;
     private final int uses;

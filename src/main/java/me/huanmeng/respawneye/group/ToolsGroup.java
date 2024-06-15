@@ -23,6 +23,11 @@ public class ToolsGroup {
                         pOutput.accept(ReTools.RUBY_SHOVEL.get());
                         pOutput.accept(ReTools.RUBY_HOE.get());
                         pOutput.accept(ReTools.RUBY_SWORD.get());
+                        pOutput.accept(ReTools.AMETHYST_AXE.get());
+                        pOutput.accept(ReTools.AMETHYST_PICKAXE.get());
+                        pOutput.accept(ReTools.AMETHYST_SHOVEL.get());
+                        pOutput.accept(ReTools.AMETHYST_HOE.get());
+                        pOutput.accept(ReTools.AMETHYST_SWORD.get());
                     }))
                     .build());
 
