@@ -28,3 +28,6 @@ RespawnEye 是一个专注于探索的 NeoForge 模组。其主要特点如下�
 
 ## 反馈：
 您可以将 [问题](https://github.com/HuanMeng-official/RespawnEye/issues) 提交到我的Github存储库或将问题描述发送到此项目。
+
+## 统计：
+![Alt](https://repobeats.axiom.co/api/embed/295ee8e01f4aac223876df6ee823d0a79438bc14.svg "Repobeats analytics image")

@@ -28,3 +28,6 @@ RespawnEye is a NeoForge Mod focused on exploration. Its main features include:
 
 ## Feedback:
 You can submit [issues](https://github.com/HuanMeng-official/RespawnEye/issues) to my Github repository or send a problem description to this project.
+
+## Stats:
+![Alt](https://repobeats.axiom.co/api/embed/295ee8e01f4aac223876df6ee823d0a79438bc14.svg "Repobeats analytics image")
