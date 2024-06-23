@@ -1,6 +1,6 @@
 ## RespawnEye
 
-![LOGO](./readme/icon/icon.png)
+![LOGO](./readme/icon/respawneye.png)
 
 [![EN](https://img.shields.io/badge/English-Click-blue)](./README.md)
 [![CN](https://img.shields.io/badge/简体中文-Click-blue)](./readme/README_zh.md)
