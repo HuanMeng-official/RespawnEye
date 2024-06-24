@@ -19,6 +19,11 @@ public class ReTools {
     public static final DeferredItem<Item> AMETHYST_SHOVEL;
     public static final DeferredItem<Item> AMETHYST_HOE;
     public static final DeferredItem<Item> AMETHYST_SWORD;
+    public static final DeferredItem<Item> ULTIMATE_AXE;
+    public static final DeferredItem<Item> ULTIMATE_PICKAXE;
+    public static final DeferredItem<Item> ULTIMATE_SHOVEL;
+    public static final DeferredItem<Item> ULTIMATE_HOE;
+    public static final DeferredItem<Item> ULTIMATE_SWORD;
 
     static {
         RUBY_AXE = ITEMS.register("ruby_axe", () -> new AxeItem(ItemTiers.RUBY, 7, -3.0F, new Item.Properties()));
@@ -32,6 +37,12 @@ public class ReTools {
         AMETHYST_SHOVEL = ITEMS.register("amethyst_shovel", () -> new ShovelItem(ItemTiers.AMETHYST, 1.5F, -3.0F, new Item.Properties()));
         AMETHYST_HOE = ITEMS.register("amethyst_hoe", () -> new HoeItem(ItemTiers.AMETHYST, -2, 0.0F, new Item.Properties()));
         AMETHYST_SWORD = ITEMS.register("amethyst_sword", () -> new SwordItem(ItemTiers.AMETHYST, 3, -2.4F, new Item.Properties()));
+
+        ULTIMATE_AXE = ITEMS.register("ultimate_axe", () -> new AxeItem(ItemTiers.TITANIUM, 9, -3.0F, new Item.Properties()));
+        ULTIMATE_PICKAXE = ITEMS.register("ultimate_pickaxe", () -> new PickaxeItem(ItemTiers.TITANIUM, 4, -2.8F, new Item.Properties()));
+        ULTIMATE_SHOVEL = ITEMS.register("ultimate_shovel", () -> new ShovelItem(ItemTiers.TITANIUM, 3.5F, -3.0F, new Item.Properties()));
+        ULTIMATE_HOE = ITEMS.register("ultimate_hoe", () -> new HoeItem(ItemTiers.TITANIUM, -3, 0.0F, new Item.Properties()));
+        ULTIMATE_SWORD = ITEMS.register("ultimate_sword", () -> new SwordItem(ItemTiers.TITANIUM, 6, -2.4F, new Item.Properties()));
     }
 
     public static void registryTools(IEventBus eventBus) {
