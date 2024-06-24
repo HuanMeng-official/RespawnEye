@@ -26,7 +26,6 @@ public class RespawnEye {
 
     public RespawnEye(IEventBus modEventBus) {
         modEventBus.addListener(this::commonSetup);
-        // Registry Bus
         ReItems.registryItems(modEventBus);
         ReFoods.registryItems(modEventBus);
         ReTools.registryTools(modEventBus);
