@@ -11,7 +11,7 @@ import net.minecraft.util.Identifier;
 
 public class ReEnchantments {
 
-    public static final Enchantment LIGHTNING_STRIKE = register("lightning_strike", new LightningStrike(Enchantment.Rarity.VERY_RARE, EnchantmentTarget.WEAPON, EquipmentSlot.MAINHAND));
+    public static final Enchantment LIGHTNING_STRIKE = register("lightning_strike", new LightningStrike(Enchantment.Rarity.RARE, EnchantmentTarget.WEAPON, EquipmentSlot.MAINHAND));
 
     private static Enchantment register(String name, Enchantment enchantment) {
         return Registry.register(Registries.ENCHANTMENT, new Identifier(RespawnEye.MODID, name), enchantment);
