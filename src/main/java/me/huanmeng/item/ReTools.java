@@ -31,6 +31,8 @@ public class ReTools {
     public static final Item EMERALD_HOE;
     public static final Item EMERALD_SWORD;
 
+    public static final Item ROSE_SWORD;
+
     static {
         RUBY_AXE = registerTools("ruby_axe", new AxeItem(ItemMaterial.RUBY, 7, -3.0F, new FabricItemSettings()));
         RUBY_PICKAXE = registerTools("ruby_pickaxe", new PickaxeItem(ItemMaterial.RUBY, 2, -2.8F, new FabricItemSettings()));
@@ -56,6 +58,8 @@ public class ReTools {
         EMERALD_SHOVEL = registerTools("emerald_shovel", new ShovelItem(ItemMaterial.EMERALD, 3.5F, -3.0F, new FabricItemSettings()));
         EMERALD_HOE = registerTools("emerald_hoe", new HoeItem(ItemMaterial.EMERALD, -2, 0.0F, new FabricItemSettings()));
         EMERALD_SWORD = registerTools("emerald_sword", new SwordItem(ItemMaterial.EMERALD, 5, -2.4F, new FabricItemSettings()));
+
+        ROSE_SWORD = registerTools("rose_sword", new SwordItem(ItemMaterial.ROSE, 7, -2.4F, new FabricItemSettings()));
     }
 
     public static Item registerTools(String name, Item item) {

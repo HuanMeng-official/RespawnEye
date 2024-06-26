@@ -38,6 +38,7 @@ public class ToolGroups {
                         entries.add(ReTools.EMERALD_SHOVEL);
                         entries.add(ReTools.EMERALD_HOE);
                         entries.add(ReTools.EMERALD_SWORD);
+                        entries.add(ReTools.ROSE_SWORD);
                     })
                     .build());
 
