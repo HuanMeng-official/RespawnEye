@@ -59,7 +59,7 @@ public class ReTools {
         EMERALD_HOE = registerTools("emerald_hoe", new HoeItem(ItemMaterial.EMERALD, -2, 0.0F, new FabricItemSettings()));
         EMERALD_SWORD = registerTools("emerald_sword", new SwordItem(ItemMaterial.EMERALD, 5, -2.4F, new FabricItemSettings()));
 
-        ROSE_SWORD = registerTools("rose_sword", new SwordItem(ItemMaterial.ROSE, 7, -2.4F, new FabricItemSettings()));
+        ROSE_SWORD = registerTools("rose_sword", new SwordItem(ItemMaterial.ROSE, 1, -2.4F, new FabricItemSettings()));
     }
 
     public static Item registerTools(String name, Item item) {
