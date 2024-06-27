@@ -28,12 +28,6 @@ public class ToolsGroup {
                         pOutput.accept(ReTools.AMETHYST_SHOVEL.get());
                         pOutput.accept(ReTools.AMETHYST_HOE.get());
                         pOutput.accept(ReTools.AMETHYST_SWORD.get());
-                        pOutput.accept(ReTools.ULTIMATE_AXE.get());
-                        pOutput.accept(ReTools.ULTIMATE_PICKAXE.get());
-                        pOutput.accept(ReTools.ULTIMATE_SHOVEL.get());
-                        pOutput.accept(ReTools.ULTIMATE_HOE.get());
-                        pOutput.accept(ReTools.ULTIMATE_SWORD.get());
-                        pOutput.accept(ReTools.ULTIMATE_BOW.get());
                     }))
                     .build());
 
