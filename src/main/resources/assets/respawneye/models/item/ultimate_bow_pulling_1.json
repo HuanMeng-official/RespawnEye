@@ -1,0 +1,6 @@
+{
+    "parent": "respawneye:item/ultimate_bow",
+    "textures": {
+        "layer0": "respawneye:item/ultimate_bow_pulling_1"
+    }
+}

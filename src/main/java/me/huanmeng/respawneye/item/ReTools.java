@@ -24,6 +24,7 @@ public class ReTools {
     public static final DeferredItem<Item> ULTIMATE_SHOVEL;
     public static final DeferredItem<Item> ULTIMATE_HOE;
     public static final DeferredItem<Item> ULTIMATE_SWORD;
+    public static final DeferredItem<Item> ULTIMATE_BOW;
 
     static {
         RUBY_AXE = ITEMS.register("ruby_axe", () -> new AxeItem(ItemTiers.RUBY, 7, -3.0F, new Item.Properties()));
@@ -43,6 +44,7 @@ public class ReTools {
         ULTIMATE_SHOVEL = ITEMS.register("ultimate_shovel", () -> new ShovelItem(ItemTiers.TITANIUM, 3.5F, -3.0F, new Item.Properties()));
         ULTIMATE_HOE = ITEMS.register("ultimate_hoe", () -> new HoeItem(ItemTiers.TITANIUM, -3, 0.0F, new Item.Properties()));
         ULTIMATE_SWORD = ITEMS.register("ultimate_sword", () -> new SwordItem(ItemTiers.TITANIUM, 6, -2.4F, new Item.Properties()));
+        ULTIMATE_BOW = ITEMS.register("ultimate_bow",() -> new BowItem(new Item.Properties().durability(1000)));
     }
 
     public static void registryTools(IEventBus eventBus) {

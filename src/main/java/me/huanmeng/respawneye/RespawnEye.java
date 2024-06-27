@@ -7,6 +7,7 @@ import me.huanmeng.respawneye.group.ToolsGroup;
 import me.huanmeng.respawneye.item.ReFoods;
 import me.huanmeng.respawneye.item.ReItems;
 import me.huanmeng.respawneye.item.ReTools;
+import me.huanmeng.respawneye.util.ReToolsProperties;
 import net.minecraft.client.Minecraft;
 import net.neoforged.api.distmarker.Dist;
 import net.neoforged.bus.api.IEventBus;
@@ -52,6 +53,7 @@ public class RespawnEye {
     public static class ClientModEvents {
         @SubscribeEvent
         public static void onClientSetup(FMLClientSetupEvent event) {
+            ReToolsProperties.registerModels();
             LOGGER.info("HELLO FROM CLIENT SETUP");
             LOGGER.info("MINECRAFT NAME >> {}", Minecraft.getInstance().getUser().getName());
         }
