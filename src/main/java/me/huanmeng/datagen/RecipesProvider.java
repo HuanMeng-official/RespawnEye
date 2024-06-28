@@ -61,6 +61,8 @@ public class RecipesProvider extends FabricRecipeProvider {
         ShapedRecipeJsonBuilder.create(RecipeCategory.MISC, ReTools.EMERALD_HOE, 1).pattern("RR ").pattern(" I ").pattern(" I ").input('R', Items.EMERALD).input('I', Items.STICK).criterion(hasItem(Items.EMERALD), conditionsFromItem(Items.EMERALD)).offerTo(exporter, new Identifier(getRecipeName(ReTools.EMERALD_HOE)));
         ShapedRecipeJsonBuilder.create(RecipeCategory.MISC, ReTools.EMERALD_SHOVEL, 1).pattern(" R ").pattern(" I ").pattern(" I ").input('R', Items.EMERALD).input('I', Items.STICK).criterion(hasItem(Items.EMERALD), conditionsFromItem(Items.EMERALD)).offerTo(exporter, new Identifier(getRecipeName(ReTools.EMERALD_SHOVEL)));
         ShapedRecipeJsonBuilder.create(RecipeCategory.MISC, ReTools.EMERALD_SWORD, 1).pattern(" R ").pattern(" R ").pattern(" I ").input('R', Items.EMERALD).input('I', Items.STICK).criterion(hasItem(Items.EMERALD), conditionsFromItem(Items.EMERALD)).offerTo(exporter, new Identifier(getRecipeName(ReTools.EMERALD_SWORD)));
+
+        ShapedRecipeJsonBuilder.create(RecipeCategory.MISC, ReTools.ROSE_SWORD, 1).pattern(" R ").pattern(" R ").pattern(" I ").input('R', Items.POPPY).input('I', Items.STICK).criterion(hasItem(Items.POPPY), conditionsFromItem(Items.STICK)).offerTo(exporter, new Identifier(getRecipeName(ReTools.ROSE_SWORD)));
     }
 
     private static final String MODID = "respawneye:";

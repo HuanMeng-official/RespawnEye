@@ -28,6 +28,7 @@ public class ReTools {
     public static final Item EMERALD_SHOVEL;
     public static final Item EMERALD_HOE;
     public static final Item EMERALD_SWORD;
+    public static final Item ROSE_SWORD;
 
     static {
         RUBY_AXE = registerTools("ruby_axe", new AxeItem(ReItemMaterial.RUBY, new Item.Settings().attributeModifiers(AxeItem.createAttributeModifiers(ReItemMaterial.RUBY, 7, -3.0F))));
@@ -53,6 +54,8 @@ public class ReTools {
         EMERALD_SHOVEL = registerTools("emerald_shovel", new ShovelItem(ReItemMaterial.EMERALD, new Item.Settings().attributeModifiers(ShovelItem.createAttributeModifiers(ReItemMaterial.EMERALD, 3.5F, -3.0F))));
         EMERALD_HOE = registerTools("emerald_hoe", new HoeItem(ReItemMaterial.EMERALD, new Item.Settings().attributeModifiers(HoeItem.createAttributeModifiers(ReItemMaterial.EMERALD, -2, 0.0F))));
         EMERALD_SWORD = registerTools("emerald_sword", new SwordItem(ReItemMaterial.EMERALD, new Item.Settings().attributeModifiers(SwordItem.createAttributeModifiers(ReItemMaterial.EMERALD, 5, -2.4F))));
+
+        ROSE_SWORD = registerTools("rose_sword", new SwordItem(ReItemMaterial.ROSE, new Item.Settings().attributeModifiers(SwordItem.createAttributeModifiers(ReItemMaterial.ROSE, 1, -2.4F))));
     }
 
     public static Item registerTools(String name, Item item) {

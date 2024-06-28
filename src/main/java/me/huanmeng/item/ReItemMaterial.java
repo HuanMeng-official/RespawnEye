@@ -14,7 +14,8 @@ public enum ReItemMaterial implements ToolMaterial {
     RUBY(BlockTags.INCORRECT_FOR_IRON_TOOL, 600, 7.0F, 2.0F, 12, () -> Ingredient.ofItems(ReItems.RUBY)),
     AMETHYST(BlockTags.INCORRECT_FOR_IRON_TOOL, 450, 6.5F, 2.0F, 9, () -> Ingredient.ofItems(Items.AMETHYST_SHARD)),
     TITANIUM(BlockTags.INCORRECT_FOR_NETHERITE_TOOL, 800, 8.0F, 3.0F, 16, () -> Ingredient.ofItems(ReItems.TITANIUM_INGOT)),
-    EMERALD(BlockTags.INCORRECT_FOR_DIAMOND_TOOL, 650, 7.5F, 2.0F, 22, () -> Ingredient.ofItems(Items.EMERALD));
+    EMERALD(BlockTags.INCORRECT_FOR_DIAMOND_TOOL, 650, 7.5F, 2.0F, 22, () -> Ingredient.ofItems(Items.EMERALD)),
+    ROSE(BlockTags.INCORRECT_FOR_IRON_TOOL, 1300, 7.0F, 2.0F, 10, () -> Ingredient.ofItems(Items.POPPY));
 
     private final TagKey<Block> inverseTag;
     private final int itemDurability;

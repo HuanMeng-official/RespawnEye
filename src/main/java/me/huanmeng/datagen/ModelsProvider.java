@@ -35,6 +35,7 @@ public class ModelsProvider extends FabricModelProvider {
 
     @Override
     public void generateItemModels(ItemModelGenerator itemModelGenerator) {
+        itemModelGenerator.register(ReTools.ROSE_SWORD, Models.HANDHELD);
         itemModelGenerator.register(ReTools.RUBY_AXE, Models.HANDHELD);
         itemModelGenerator.register(ReTools.RUBY_HOE, Models.HANDHELD);
         itemModelGenerator.register(ReTools.RUBY_SWORD, Models.HANDHELD);
