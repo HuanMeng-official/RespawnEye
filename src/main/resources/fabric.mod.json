@@ -1,0 +1,44 @@
+{
+	"schemaVersion": 1,
+	"id": "respawneye",
+	"version": "${version}",
+	"name": "RespawnEye",
+	"description": "RespawnEye, a Mod that focuses on mythical creatures.",
+	"authors": [
+		"HuanMeng_"
+	],
+	"contact": {
+		"homepage": "https://github.com/HuanMeng-official",
+		"sources": "https://github.com/HuanMeng-official/RespawnEye",
+		"issues": "https://github.com/HuanMeng-official/RespawnEye/issues"
+	},
+	"custom": {
+		"modmenu": {
+			"links": {
+				"modmenu.bilibili": "https://space.bilibili.com/626446902",
+				"modmenu.modrinth": "https://modrinth.com/mod/respawneye",
+				"modmenu.curseforge": "https://www.curseforge.com/minecraft/mc-mods/respawneye"
+			}
+		}
+	},
+	"license": "MIT",
+	"icon": "assets/respawneye/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"me.huanmeng.RespawnEye"
+		],
+		"fabric-datagen": [
+			"me.huanmeng.RespawnEyeDataGenerator"
+		]
+	},
+	"depends": {
+		"fabricloader": ">=0.15.11",
+		"minecraft": "~1.21",
+		"java": ">=21",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}
