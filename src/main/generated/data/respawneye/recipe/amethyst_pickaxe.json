@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "I": {
+      "item": "minecraft:stick"
+    },
+    "R": {
+      "item": "minecraft:amethyst_shard"
+    }
+  },
+  "pattern": [
+    "RRR",
+    " I ",
+    " I "
+  ],
+  "result": {
+    "count": 1,
+    "id": "respawneye:amethyst_pickaxe"
+  }
+}
