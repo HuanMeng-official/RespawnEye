@@ -1,0 +1,6 @@
+// 1.21	2024-06-30T15:21:15.6398462	RespawnEye/Tags for minecraft:block
+995aba76e173cc1a4be3b327a07a2157d421b97b data\minecraft\tags\block\needs_stone_tool.json
+60d57ad08cf079912755921278326622a913692b data\minecraft\tags\block\mineable\pickaxe.json
+cc6af31ee6c24e5d0532c6bd37149cca5706599c data\fabric\tags\block\needs_tool_level_2.json
+995aba76e173cc1a4be3b327a07a2157d421b97b data\fabric\tags\block\needs_tool_level_1.json
+cc6af31ee6c24e5d0532c6bd37149cca5706599c data\minecraft\tags\block\needs_iron_tool.json
