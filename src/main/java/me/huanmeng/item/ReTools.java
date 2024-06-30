@@ -23,6 +23,7 @@ public class ReTools {
     public static final Item ULTIMATE_SHOVEL;
     public static final Item ULTIMATE_HOE;
     public static final Item ULTIMATE_SWORD;
+    public static final Item ULTIMATE_BOW;
     public static final Item EMERALD_AXE;
     public static final Item EMERALD_PICKAXE;
     public static final Item EMERALD_SHOVEL;
@@ -48,6 +49,7 @@ public class ReTools {
         ULTIMATE_SHOVEL = registerTools("ultimate_shovel", new ShovelItem(ReItemMaterial.TITANIUM, new Item.Settings().attributeModifiers(ShovelItem.createAttributeModifiers(ReItemMaterial.TITANIUM, 4.5F, -3.0F))));
         ULTIMATE_HOE = registerTools("ultimate_hoe", new HoeItem(ReItemMaterial.TITANIUM, new Item.Settings().attributeModifiers(HoeItem.createAttributeModifiers(ReItemMaterial.TITANIUM, -3, 0.0F))));
         ULTIMATE_SWORD = registerTools("ultimate_sword", new SwordItem(ReItemMaterial.TITANIUM, new Item.Settings().attributeModifiers(SwordItem.createAttributeModifiers(ReItemMaterial.TITANIUM, 6, -2.4F))));
+        ULTIMATE_BOW = registerTools("ultimate_bow", new BowItem(new Item.Settings().maxDamage(1000)));
 
         EMERALD_AXE = registerTools("emerald_axe", new AxeItem(ReItemMaterial.EMERALD, new Item.Settings().attributeModifiers(AxeItem.createAttributeModifiers(ReItemMaterial.EMERALD, 8, -3.0F))));
         EMERALD_PICKAXE = registerTools("emerald_pickaxe", new PickaxeItem(ReItemMaterial.EMERALD, new Item.Settings().attributeModifiers(PickaxeItem.createAttributeModifiers(ReItemMaterial.EMERALD, 3, -2.8F))));
