@@ -1,12 +1,13 @@
 package me.huanmeng.util;
 
+import me.huanmeng.item.ReTools;
 import net.minecraft.client.item.ModelPredicateProviderRegistry;
 import net.minecraft.item.Item;
 import net.minecraft.util.Identifier;
 
 public class ModelsPredicateProviderRegistry {
     public static void registerModels() {
-
+        registerBow(ReTools.ULTIMATE_BOW);
     }
 
     public static void registerBow(Item bow) {
