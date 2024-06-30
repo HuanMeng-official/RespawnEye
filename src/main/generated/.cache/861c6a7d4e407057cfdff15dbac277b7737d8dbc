@@ -1,12 +1,14 @@
-// 1.21	2024-06-30T15:21:15.6368384	RespawnEye/Block Loot Tables
+// 1.21	2024-06-30T15:37:14.346664	RespawnEye/Block Loot Tables
 67297b29691730e55a36912621a3c2712431bf9d data\respawneye\loot_table\blocks\uranium_block.json
 f9113ab27aef16169ce9b2da66dbe1bde63d086f data\respawneye\loot_table\blocks\ruby_block.json
 2a5297119fb1385681993992f5b6db94a0786491 data\respawneye\loot_table\blocks\ruby_ore.json
 c84e42eca38d58d0333c7c617e533bb25f9e12eb data\respawneye\loot_table\blocks\titanium_block.json
+90c476bf45fe7b5959f092f99f45b59c0f194a1b data\respawneye\loot_table\blocks\salt_ore.json
 45655439c0a066b59520003a43287b1e16886081 data\respawneye\loot_table\blocks\deepslate_uranium_ore.json
 993157ea81054ed2f488acf409738bd06c074a73 data\respawneye\loot_table\blocks\deepslate_titanium_ore.json
 6c8c738bc18b00af0bb48c04ce0d4b6d7018b541 data\respawneye\loot_table\blocks\titanium_ore.json
 42958d788175016e905d4225350d74fec1d4be66 data\respawneye\loot_table\blocks\deepslate_tigers_eye_ore.json
+62747fee730450ffc0f3c9c09dc069c90f3dbc6d data\respawneye\loot_table\blocks\deepslate_salt_ore.json
 a31c79dd3abeb1d493d2d0d27e8dc541feae64fb data\respawneye\loot_table\blocks\tigers_eye_ore.json
 fcf540fba989f2be82755a1227fe2c7da2ab800d data\respawneye\loot_table\blocks\tigers_eye_block.json
 5a127306b525b31410501bcaf8c4b94e315e54f9 data\respawneye\loot_table\blocks\uranium_ore.json
