@@ -2,7 +2,6 @@ package me.huanmeng.datagen;
 
 import me.huanmeng.block.ReBlocks;
 import me.huanmeng.item.ReItems;
-//import me.huanmeng.item.ReTools;
 import net.fabricmc.fabric.api.datagen.v1.FabricDataOutput;
 import net.fabricmc.fabric.api.datagen.v1.provider.FabricModelProvider;
 import net.minecraft.data.client.BlockStateModelGenerator;
