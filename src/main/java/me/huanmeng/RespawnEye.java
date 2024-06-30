@@ -4,7 +4,6 @@ import me.huanmeng.block.ReBlocks;
 import me.huanmeng.group.BlockGroups;
 import me.huanmeng.group.ItemGroups;
 import me.huanmeng.item.ReItems;
-import me.huanmeng.world.gen.ReWorldGeneration;
 import net.fabricmc.api.ModInitializer;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -20,6 +19,5 @@ public class RespawnEye implements ModInitializer {
 		ReBlocks.registryBlocks();
 		ItemGroups.registryGroup();
 		BlockGroups.registryGroup();
-		ReWorldGeneration.generateModWorldGen();
 	}
 }
