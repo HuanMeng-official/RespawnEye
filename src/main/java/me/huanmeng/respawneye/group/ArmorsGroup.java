@@ -1,7 +1,7 @@
 package me.huanmeng.respawneye.group;
 
 import me.huanmeng.respawneye.RespawnEye;
-import me.huanmeng.respawneye.item.ReFoods;
+import me.huanmeng.respawneye.item.ReArmors;
 import net.minecraft.core.registries.Registries;
 import net.minecraft.network.chat.Component;
 import net.minecraft.world.item.CreativeModeTab;
@@ -10,20 +10,23 @@ import net.neoforged.neoforge.registries.DeferredRegister;
 
 import java.util.function.Supplier;
 
-public class FoodsGroup {
+public class ArmorsGroup {
     public static final DeferredRegister<CreativeModeTab> TAB = DeferredRegister.create(Registries.CREATIVE_MODE_TAB, RespawnEye.MODID);
 
-    public static final Supplier<CreativeModeTab> FOODS_TAB = TAB.register("foods_tab",
+    public static final Supplier<CreativeModeTab> ARMORS_TAB = TAB.register("armors_tab",
             () -> CreativeModeTab.builder()
-                    .title(Component.translatable("ig.respawneye.food"))
-                    .icon(() -> ReFoods.SPARK_FISH.get().getDefaultInstance())
+                    .title(Component.translatable("ig.respawneye.armor"))
+                    .icon(() -> ReArmors.RUBY_CHESTPLATE.get().getDefaultInstance())
                     .displayItems(((pParameters, pOutput) -> {
-                        pOutput.accept(ReFoods.SPARK_FISH.get());
+                        pOutput.accept(ReArmors.RUBY_HELMET.get());
+                        pOutput.accept(ReArmors.RUBY_CHESTPLATE.get());
+                        pOutput.accept(ReArmors.RUBY_LEGGINGS.get());
+                        pOutput.accept(ReArmors.RUBY_BOOTS.get());
                     }))
                     .build());
 
     public static void registryGroup(IEventBus eventBus) {
         TAB.register(eventBus);
-        RespawnEye.LOGGER.info("Registering FoodsGroup for RespawnEye");
+        RespawnEye.LOGGER.info("Registering ArmorsGroup for RespawnEye");
     }
 }

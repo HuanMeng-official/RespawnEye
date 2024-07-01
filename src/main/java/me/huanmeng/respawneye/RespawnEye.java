@@ -1,9 +1,11 @@
 package me.huanmeng.respawneye;
 
 import com.mojang.logging.LogUtils;
+import me.huanmeng.respawneye.group.ArmorsGroup;
 import me.huanmeng.respawneye.group.FoodsGroup;
 import me.huanmeng.respawneye.group.ItemsGroup;
 import me.huanmeng.respawneye.group.ToolsGroup;
+import me.huanmeng.respawneye.item.ReArmors;
 import me.huanmeng.respawneye.item.ReFoods;
 import me.huanmeng.respawneye.item.ReItems;
 import me.huanmeng.respawneye.item.ReTools;
@@ -30,9 +32,11 @@ public class RespawnEye {
         ReItems.registryItems(modEventBus);
         ReFoods.registryItems(modEventBus);
         ReTools.registryTools(modEventBus);
+        ReArmors.registryItems(modEventBus);
         ItemsGroup.registryGroup(modEventBus);
         FoodsGroup.registryGroup(modEventBus);
         ToolsGroup.registryGroup(modEventBus);
+        ArmorsGroup.registryGroup(modEventBus);
         NeoForge.EVENT_BUS.register(this);
         modEventBus.addListener(this::addCreative);
     }
