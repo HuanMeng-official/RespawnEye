@@ -1,7 +1,7 @@
 package me.huanmeng.enchantment;
 
 import me.huanmeng.RespawnEye;
-import me.huanmeng.enchantment.custome.LightningStrike;
+import me.huanmeng.enchantment.custom.LightningStrike;
 import net.minecraft.enchantment.Enchantment;
 import net.minecraft.enchantment.EnchantmentTarget;
 import net.minecraft.entity.EquipmentSlot;
