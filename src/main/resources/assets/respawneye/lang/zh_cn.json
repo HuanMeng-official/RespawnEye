@@ -10,6 +10,7 @@
   "ig.respawneye.food": "重生之眼 | 食物",
   "ig.respawneye.tool": "重生之眼 | 工具",
   "ig.respawneye.armor": "重生之眼 | 盔甲",
+  "ig.respawneye.egg": "重生之眼 | 刷怪蛋",
 
   "item.respawneye.ruby": "红宝石",
   "item.respawneye.salt": "盐",
@@ -78,6 +79,7 @@
   "item.respawneye.emerald_leggings": "绿宝石护腿",
   "item.respawneye.emerald_boots": "绿宝石靴子",
   "item.respawneye.rose_sword": "玫瑰剑",
+  "item.respawneye.ant_spawn_egg": "蚂蚁刷怪蛋",
 
   "block.respawneye.ruby_ore": "红宝石矿石",
   "block.respawneye.deepslate_ruby_ore": "深层红宝石矿石",

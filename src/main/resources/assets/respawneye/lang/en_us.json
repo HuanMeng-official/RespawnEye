@@ -10,6 +10,7 @@
   "ig.respawneye.food": "RespawnEye | Foods",
   "ig.respawneye.tool": "RespawnEye | Tools",
   "ig.respawneye.armor": "RespawnEye | Armors",
+  "ig.respawneye.egg": "RespawnEye | SpawnEggs",
 
   "item.respawneye.ruby": "Ruby",
   "item.respawneye.salt": "Salt",
@@ -78,6 +79,7 @@
   "item.respawneye.emerald_leggings": "Emerald Leggings",
   "item.respawneye.emerald_boots": "Emerald Boots",
   "item.respawneye.rose_sword": "Rose Sword",
+  "item.respawneye.ant_spawn_egg": "Ant Spawn Egg",
 
   "block.respawneye.ruby_ore": "Ruby Ore",
   "block.respawneye.deepslate_ruby_ore": "Deepslate Ruby Ore",
