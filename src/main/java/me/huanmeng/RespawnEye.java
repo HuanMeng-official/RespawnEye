@@ -26,11 +26,11 @@ public class RespawnEye implements ModInitializer {
 		ReBlocks.registryBlocks();
 		ReTools.registryTools();
 		ReArmor.registryArmors();
-		ItemGroups.registryGroup();
-		BlockGroups.registryGroup();
-		FoodGroups.registryGroup();
-		ToolGroups.registryGroup();
-		ArmorGroups.registryGroup();
+		ItemsGroup.registryGroup();
+		BlocksGroup.registryGroup();
+		FoodsGroup.registryGroup();
+		ToolsGroup.registryGroup();
+		ArmorsGroup.registryGroup();
 		ReWorldGeneration.generateModWorldGen();
 		ReEnchantments.registerEnchantments();
 		FabricDefaultAttributeRegistry.register(ReEntity.ANT, AntEntity.setAttributes());
