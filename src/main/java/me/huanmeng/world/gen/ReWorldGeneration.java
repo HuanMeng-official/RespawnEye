@@ -4,5 +4,6 @@ public class ReWorldGeneration {
 
     public static void generateModWorldGen(){
         ReOreGeneration.generateOres();
+        ReEntityGeneration.addSpawns();
     }
 }
