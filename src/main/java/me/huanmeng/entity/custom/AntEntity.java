@@ -28,12 +28,12 @@ public class AntEntity extends AnimalEntity implements GeoEntity {
     public static DefaultAttributeContainer.Builder setAttributes() {
         return AnimalEntity.createMobAttributes()
                 .add(EntityAttributes.GENERIC_MAX_HEALTH, 1.0D)
-                .add(EntityAttributes.GENERIC_MOVEMENT_SPEED, 0.1f);
+                .add(EntityAttributes.GENERIC_MOVEMENT_SPEED, 0.5f);
     }
 
     protected void initGoals() {
         this.goalSelector.add(1, new SwimGoal(this));
-        this.goalSelector.add(2, new WanderAroundFarGoal(this, 0.1f, 1));
+        this.goalSelector.add(2, new WanderAroundFarGoal(this, 0.5f, 1));
     }
 
     @Nullable
