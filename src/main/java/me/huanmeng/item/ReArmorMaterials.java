@@ -1,5 +1,6 @@
 package me.huanmeng.item;
 
+import me.huanmeng.RespawnEye;
 import net.minecraft.item.ArmorItem;
 import net.minecraft.item.ArmorMaterial;
 import net.minecraft.item.ItemConvertible;
@@ -23,7 +24,7 @@ public class ReArmorMaterials {
     }
 
     private static RegistryEntry<ArmorMaterial> register(String id, EnumMap<ArmorItem.Type, Integer> defense, int enchantability, RegistryEntry<SoundEvent> equipSound, float toughness, float knockbackResistance, Supplier<Ingredient> repairIngredient) {
-        List<ArmorMaterial.Layer> list = List.of(new ArmorMaterial.Layer(new Identifier(id)));
+        List<ArmorMaterial.Layer> list = List.of(new ArmorMaterial.Layer(new Identifier(RespawnEye.MODID + ":" + id)));
         return register(id, defense, enchantability, equipSound, toughness, knockbackResistance, repairIngredient, list);
     }
 
