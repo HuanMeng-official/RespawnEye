@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:blasting",
+  "category": "misc",
+  "cookingtime": 100,
+  "experience": 0.4,
+  "group": "ruby",
+  "ingredient": {
+    "item": "respawneye:deepslate_ruby_ore"
+  },
+  "result": {
+    "id": "respawneye:ruby"
+  }
+}
