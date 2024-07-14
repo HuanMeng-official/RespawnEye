@@ -95,5 +95,13 @@ public class ModelsProvider extends FabricModelProvider {
         itemModelGenerator.registerArmor((ArmorItem) ReArmors.RUBY_CHESTPLATE);
         itemModelGenerator.registerArmor((ArmorItem) ReArmors.RUBY_LEGGINGS);
         itemModelGenerator.registerArmor((ArmorItem) ReArmors.RUBY_BOOTS);
+        itemModelGenerator.registerArmor((ArmorItem) ReArmors.AMETHYST_HELMET);
+        itemModelGenerator.registerArmor((ArmorItem) ReArmors.AMETHYST_CHESTPLATE);
+        itemModelGenerator.registerArmor((ArmorItem) ReArmors.AMETHYST_LEGGINGS);
+        itemModelGenerator.registerArmor((ArmorItem) ReArmors.AMETHYST_BOOTS);
+        itemModelGenerator.registerArmor((ArmorItem) ReArmors.EMERALD_HELMET);
+        itemModelGenerator.registerArmor((ArmorItem) ReArmors.EMERALD_CHESTPLATE);
+        itemModelGenerator.registerArmor((ArmorItem) ReArmors.EMERALD_LEGGINGS);
+        itemModelGenerator.registerArmor((ArmorItem) ReArmors.EMERALD_BOOTS);
     }
 }

@@ -17,5 +17,7 @@ public class ItemsTagProvider extends FabricTagProvider.ItemTagProvider {
     @Override
     protected void configure(RegistryWrapper.WrapperLookup arg) {
         getOrCreateTagBuilder(ItemTags.TRIMMABLE_ARMOR).add(ReArmors.RUBY_HELMET, ReArmors.RUBY_CHESTPLATE, ReArmors.RUBY_LEGGINGS, ReArmors.RUBY_BOOTS);
+        getOrCreateTagBuilder(ItemTags.TRIMMABLE_ARMOR).add(ReArmors.AMETHYST_HELMET, ReArmors.AMETHYST_CHESTPLATE, ReArmors.AMETHYST_LEGGINGS, ReArmors.AMETHYST_BOOTS);
+        getOrCreateTagBuilder(ItemTags.TRIMMABLE_ARMOR).add(ReArmors.EMERALD_HELMET, ReArmors.EMERALD_CHESTPLATE, ReArmors.EMERALD_LEGGINGS, ReArmors.EMERALD_BOOTS);
     }
 }
