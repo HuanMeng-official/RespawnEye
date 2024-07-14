@@ -1,10 +1,8 @@
 package me.huanmeng;
 
 import me.huanmeng.block.ReBlocks;
-import me.huanmeng.group.BlocksGroup;
-import me.huanmeng.group.FoodsGroup;
-import me.huanmeng.group.ItemsGroup;
-import me.huanmeng.group.ToolsGroup;
+import me.huanmeng.group.*;
+import me.huanmeng.item.ReArmors;
 import me.huanmeng.item.ReItems;
 import me.huanmeng.item.ReTools;
 import me.huanmeng.world.gen.ReWorldGeneration;
@@ -23,10 +21,12 @@ public class RespawnEye implements ModInitializer {
 		ReItems.registryItems();
 		ReBlocks.registryBlocks();
 		ReTools.registryTools();
+		ReArmors.registryArmors();
 		ItemsGroup.registryGroup();
 		BlocksGroup.registryGroup();
 		FoodsGroup.registryGroup();
 		ToolsGroup.registryGroup();
+		ArmorsGroup.registryGroup();
 		ReWorldGeneration.generateModWorldGen();
 	}
 }
