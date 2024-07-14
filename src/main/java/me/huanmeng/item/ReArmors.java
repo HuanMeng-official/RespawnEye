@@ -8,7 +8,7 @@ import net.minecraft.registry.Registries;
 import net.minecraft.registry.Registry;
 import net.minecraft.util.Identifier;
 
-public class ReArmor {
+public class ReArmors {
 
     public static final Item RUBY_HELMET;
     public static final Item RUBY_CHESTPLATE;

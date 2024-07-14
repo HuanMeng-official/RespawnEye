@@ -1,6 +1,6 @@
 package me.huanmeng.datagen;
 
-import me.huanmeng.item.ReArmor;
+import me.huanmeng.item.ReArmors;
 import net.fabricmc.fabric.api.datagen.v1.FabricDataOutput;
 import net.fabricmc.fabric.api.datagen.v1.provider.FabricTagProvider;
 import net.minecraft.registry.RegistryWrapper;
@@ -16,8 +16,8 @@ public class ItemsTagProvider extends FabricTagProvider.ItemTagProvider {
 
     @Override
     protected void configure(RegistryWrapper.WrapperLookup arg) {
-        getOrCreateTagBuilder(ItemTags.TRIMMABLE_ARMOR).add(ReArmor.RUBY_HELMET, ReArmor.RUBY_CHESTPLATE, ReArmor.RUBY_LEGGINGS, ReArmor.RUBY_BOOTS);
-        getOrCreateTagBuilder(ItemTags.TRIMMABLE_ARMOR).add(ReArmor.AMETHYST_HELMET, ReArmor.AMETHYST_CHESTPLATE, ReArmor.AMETHYST_LEGGINGS, ReArmor.AMETHYST_BOOTS);
-        getOrCreateTagBuilder(ItemTags.TRIMMABLE_ARMOR).add(ReArmor.EMERALD_HELMET, ReArmor.EMERALD_CHESTPLATE, ReArmor.EMERALD_LEGGINGS, ReArmor.EMERALD_BOOTS);
+        getOrCreateTagBuilder(ItemTags.TRIMMABLE_ARMOR).add(ReArmors.RUBY_HELMET, ReArmors.RUBY_CHESTPLATE, ReArmors.RUBY_LEGGINGS, ReArmors.RUBY_BOOTS);
+        getOrCreateTagBuilder(ItemTags.TRIMMABLE_ARMOR).add(ReArmors.AMETHYST_HELMET, ReArmors.AMETHYST_CHESTPLATE, ReArmors.AMETHYST_LEGGINGS, ReArmors.AMETHYST_BOOTS);
+        getOrCreateTagBuilder(ItemTags.TRIMMABLE_ARMOR).add(ReArmors.EMERALD_HELMET, ReArmors.EMERALD_CHESTPLATE, ReArmors.EMERALD_LEGGINGS, ReArmors.EMERALD_BOOTS);
     }
 }

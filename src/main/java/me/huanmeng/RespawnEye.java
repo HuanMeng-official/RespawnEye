@@ -5,7 +5,7 @@ import me.huanmeng.enchantment.ReEnchantments;
 import me.huanmeng.entity.ReEntity;
 import me.huanmeng.entity.custom.AntEntity;
 import me.huanmeng.group.*;
-import me.huanmeng.item.ReArmor;
+import me.huanmeng.item.ReArmors;
 import me.huanmeng.item.ReEggs;
 import me.huanmeng.item.ReItems;
 import me.huanmeng.item.ReTools;
@@ -26,7 +26,7 @@ public class RespawnEye implements ModInitializer {
 		ReItems.registryItems();
 		ReBlocks.registryBlocks();
 		ReTools.registryTools();
-		ReArmor.registryArmors();
+		ReArmors.registryArmors();
 		ReEggs.registryEggss();
 		ItemsGroup.registryGroup();
 		BlocksGroup.registryGroup();

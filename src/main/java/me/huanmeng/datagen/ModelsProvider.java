@@ -1,7 +1,7 @@
 package me.huanmeng.datagen;
 
 import me.huanmeng.block.ReBlocks;
-import me.huanmeng.item.ReArmor;
+import me.huanmeng.item.ReArmors;
 import me.huanmeng.item.ReEggs;
 import me.huanmeng.item.ReItems;
 import me.huanmeng.item.ReTools;
@@ -94,17 +94,17 @@ public class ModelsProvider extends FabricModelProvider {
         itemModelGenerator.register(ReItems.WORM_TOOTH, Models.GENERATED);
         itemModelGenerator.register(ReItems.SALT, Models.GENERATED);
         itemModelGenerator.register(ReItems.SPARK_FISH, Models.GENERATED);
-        itemModelGenerator.registerArmor((ArmorItem) ReArmor.RUBY_HELMET);
-        itemModelGenerator.registerArmor((ArmorItem) ReArmor.RUBY_CHESTPLATE);
-        itemModelGenerator.registerArmor((ArmorItem) ReArmor.RUBY_LEGGINGS);
-        itemModelGenerator.registerArmor((ArmorItem) ReArmor.RUBY_BOOTS);
-        itemModelGenerator.registerArmor((ArmorItem) ReArmor.AMETHYST_HELMET);
-        itemModelGenerator.registerArmor((ArmorItem) ReArmor.AMETHYST_CHESTPLATE);
-        itemModelGenerator.registerArmor((ArmorItem) ReArmor.AMETHYST_LEGGINGS);
-        itemModelGenerator.registerArmor((ArmorItem) ReArmor.AMETHYST_BOOTS);
-        itemModelGenerator.registerArmor((ArmorItem) ReArmor.EMERALD_HELMET);
-        itemModelGenerator.registerArmor((ArmorItem) ReArmor.EMERALD_CHESTPLATE);
-        itemModelGenerator.registerArmor((ArmorItem) ReArmor.EMERALD_LEGGINGS);
-        itemModelGenerator.registerArmor((ArmorItem) ReArmor.EMERALD_BOOTS);
+        itemModelGenerator.registerArmor((ArmorItem) ReArmors.RUBY_HELMET);
+        itemModelGenerator.registerArmor((ArmorItem) ReArmors.RUBY_CHESTPLATE);
+        itemModelGenerator.registerArmor((ArmorItem) ReArmors.RUBY_LEGGINGS);
+        itemModelGenerator.registerArmor((ArmorItem) ReArmors.RUBY_BOOTS);
+        itemModelGenerator.registerArmor((ArmorItem) ReArmors.AMETHYST_HELMET);
+        itemModelGenerator.registerArmor((ArmorItem) ReArmors.AMETHYST_CHESTPLATE);
+        itemModelGenerator.registerArmor((ArmorItem) ReArmors.AMETHYST_LEGGINGS);
+        itemModelGenerator.registerArmor((ArmorItem) ReArmors.AMETHYST_BOOTS);
+        itemModelGenerator.registerArmor((ArmorItem) ReArmors.EMERALD_HELMET);
+        itemModelGenerator.registerArmor((ArmorItem) ReArmors.EMERALD_CHESTPLATE);
+        itemModelGenerator.registerArmor((ArmorItem) ReArmors.EMERALD_LEGGINGS);
+        itemModelGenerator.registerArmor((ArmorItem) ReArmors.EMERALD_BOOTS);
     }
 }
