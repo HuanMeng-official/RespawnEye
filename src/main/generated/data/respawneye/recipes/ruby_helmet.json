@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "R": {
+      "item": "respawneye:ruby"
+    }
+  },
+  "pattern": [
+    "RRR",
+    "R R",
+    "   "
+  ],
+  "result": {
+    "count": 1,
+    "id": "respawneye:ruby_helmet"
+  }
+}

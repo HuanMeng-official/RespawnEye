@@ -1,6 +1,7 @@
 package me.huanmeng.datagen;
 
 import me.huanmeng.block.ReBlocks;
+import me.huanmeng.item.ReArmors;
 import me.huanmeng.item.ReItems;
 import me.huanmeng.item.ReTools;
 import net.fabricmc.fabric.api.datagen.v1.FabricDataOutput;
@@ -38,6 +39,10 @@ public class RecipesProvider extends FabricRecipeProvider {
         ShapedRecipeJsonBuilder.create(RecipeCategory.MISC, ReTools.RUBY_HOE, 1).pattern("RR ").pattern(" I ").pattern(" I ").input('R', ReItems.RUBY).input('I', Items.STICK).criterion(hasItem(ReItems.RUBY), conditionsFromItem(ReItems.RUBY)).offerTo(exporter, new Identifier(getRecipeName(ReTools.RUBY_HOE)));
         ShapedRecipeJsonBuilder.create(RecipeCategory.MISC, ReTools.RUBY_SHOVEL, 1).pattern(" R ").pattern(" I ").pattern(" I ").input('R', ReItems.RUBY).input('I', Items.STICK).criterion(hasItem(ReItems.RUBY), conditionsFromItem(ReItems.RUBY)).offerTo(exporter, new Identifier(getRecipeName(ReTools.RUBY_SHOVEL)));
         ShapedRecipeJsonBuilder.create(RecipeCategory.MISC, ReTools.RUBY_SWORD, 1).pattern(" R ").pattern(" R ").pattern(" I ").input('R', ReItems.RUBY).input('I', Items.STICK).criterion(hasItem(ReItems.RUBY), conditionsFromItem(ReItems.RUBY)).offerTo(exporter, new Identifier(getRecipeName(ReTools.RUBY_SWORD)));
+        ShapedRecipeJsonBuilder.create(RecipeCategory.MISC, ReArmors.RUBY_HELMET, 1).pattern("RRR").pattern("R R").pattern("   ").input('R', ReItems.RUBY).criterion(hasItem(ReItems.RUBY), conditionsFromItem(ReItems.RUBY)).offerTo(exporter, new Identifier(getRecipeName(ReArmors.RUBY_HELMET)));
+        ShapedRecipeJsonBuilder.create(RecipeCategory.MISC, ReArmors.RUBY_CHESTPLATE, 1).pattern("R R").pattern("RRR").pattern("RRR").input('R', ReItems.RUBY).criterion(hasItem(ReItems.RUBY), conditionsFromItem(ReItems.RUBY)).offerTo(exporter, new Identifier(getRecipeName(ReArmors.RUBY_CHESTPLATE)));
+        ShapedRecipeJsonBuilder.create(RecipeCategory.MISC, ReArmors.RUBY_LEGGINGS, 1).pattern("RRR").pattern("R R").pattern("R R").input('R', ReItems.RUBY).criterion(hasItem(ReItems.RUBY), conditionsFromItem(ReItems.RUBY)).offerTo(exporter, new Identifier(getRecipeName(ReArmors.RUBY_LEGGINGS)));
+        ShapedRecipeJsonBuilder.create(RecipeCategory.MISC, ReArmors.RUBY_BOOTS, 1).pattern("R R").pattern("R R").pattern("   ").input('R', ReItems.RUBY).criterion(hasItem(ReItems.RUBY), conditionsFromItem(ReItems.RUBY)).offerTo(exporter, new Identifier(getRecipeName(ReArmors.RUBY_BOOTS)));
 
         ShapedRecipeJsonBuilder.create(RecipeCategory.MISC, ReTools.AMETHYST_AXE, 1).pattern("RR ").pattern("RI ").pattern(" I ").input('R', Items.AMETHYST_SHARD).input('I', Items.STICK).criterion(hasItem(Items.AMETHYST_SHARD), conditionsFromItem(Items.AMETHYST_SHARD)).offerTo(exporter, new Identifier(getRecipeName(ReTools.AMETHYST_AXE)));
         ShapedRecipeJsonBuilder.create(RecipeCategory.MISC, ReTools.AMETHYST_PICKAXE, 1).pattern("RRR").pattern(" I ").pattern(" I ").input('R', Items.AMETHYST_SHARD).input('I', Items.STICK).criterion(hasItem(Items.AMETHYST_SHARD), conditionsFromItem(Items.AMETHYST_SHARD)).offerTo(exporter, new Identifier(getRecipeName(ReTools.AMETHYST_PICKAXE)));
