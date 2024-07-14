@@ -4,6 +4,7 @@ import me.huanmeng.RespawnEye;
 import net.minecraft.item.ArmorItem;
 import net.minecraft.item.ArmorMaterial;
 import net.minecraft.item.ItemConvertible;
+import net.minecraft.item.Items;
 import net.minecraft.recipe.Ingredient;
 import net.minecraft.registry.Registries;
 import net.minecraft.registry.Registry;
@@ -19,6 +20,8 @@ import java.util.function.Supplier;
 
 public class ReArmorMaterials {
     public static final RegistryEntry<ArmorMaterial> RUBY;
+    public static final RegistryEntry<ArmorMaterial> AMETHYST;
+    public static final RegistryEntry<ArmorMaterial> EMERALD;
 
     public ReArmorMaterials() {
     }
@@ -49,6 +52,22 @@ public class ReArmorMaterials {
             map.put(ArmorItem.Type.HELMET, 3);
         }), 10, SoundEvents.ITEM_ARMOR_EQUIP_DIAMOND, 0.5F, 0.0F, () -> {
             return Ingredient.ofItems(new ItemConvertible[]{ReItems.RUBY});
+        });
+        AMETHYST = register("amethyst", (EnumMap)Util.make(new EnumMap(ArmorItem.Type.class), (map) -> {
+            map.put(ArmorItem.Type.BOOTS, 1);
+            map.put(ArmorItem.Type.LEGGINGS, 4);
+            map.put(ArmorItem.Type.CHESTPLATE, 5);
+            map.put(ArmorItem.Type.HELMET, 2);
+        }), 7, SoundEvents.ITEM_ARMOR_EQUIP_DIAMOND, 0.5F, 0.0F, () -> {
+            return Ingredient.ofItems(new ItemConvertible[]{Items.AMETHYST_SHARD});
+        });
+        EMERALD = register("emerald", (EnumMap)Util.make(new EnumMap(ArmorItem.Type.class), (map) -> {
+            map.put(ArmorItem.Type.BOOTS, 3);
+            map.put(ArmorItem.Type.LEGGINGS, 6);
+            map.put(ArmorItem.Type.CHESTPLATE, 7);
+            map.put(ArmorItem.Type.HELMET, 3);
+        }), 20, SoundEvents.ITEM_ARMOR_EQUIP_DIAMOND, 1.5F, 0.0F, () -> {
+            return Ingredient.ofItems(new ItemConvertible[]{Items.EMERALD});
         });
     }
 }
