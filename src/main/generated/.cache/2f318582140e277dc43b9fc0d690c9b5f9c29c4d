@@ -1,9 +1,9 @@
-// 1.20.6	2024-07-14T16:40:21.9359612	RespawnEye/WorldGenerator
+// 1.20.6	2024-07-14T23:15:33.2297671	RespawnEye/WorldGenerator
 7062733ff5d76c82d3d6e7c871f3db24a9fe9659 data\respawneye\worldgen\placed_feature\uranium_ore_placed.json
 fdb291878063e3c6b18ba9ece920100035eaade0 data\respawneye\worldgen\configured_feature\uranium_ore.json
 080837073ce3077c5cdaf498c9ab02e446b25f02 data\respawneye\worldgen\placed_feature\salt_ore_placed.json
 abdc27600362e960cb8fcc684914c4df01d77e58 data\respawneye\worldgen\placed_feature\ruby_ore_placed.json
-869addfa5fc52459522d09727a36d598dc7652fe data\respawneye\worldgen\configured_feature\salt_ore.json
 8f24687795ad90c5345751c14f7992aaaf993680 data\respawneye\worldgen\configured_feature\titanium_ore.json
+869addfa5fc52459522d09727a36d598dc7652fe data\respawneye\worldgen\configured_feature\salt_ore.json
 469293b75e2d6dcb8e58f8182177ead67ca0d20e data\respawneye\worldgen\placed_feature\titanium_ore_placed.json
 401f9b1f47d8e65d5da297de288cfac879c3b94a data\respawneye\worldgen\configured_feature\ruby_ore.json

@@ -21,6 +21,14 @@ public class ArmorsGroup {
                         entries.add(ReArmors.RUBY_CHESTPLATE);
                         entries.add(ReArmors.RUBY_LEGGINGS);
                         entries.add(ReArmors.RUBY_BOOTS);
+                        entries.add(ReArmors.AMETHYST_HELMET);
+                        entries.add(ReArmors.AMETHYST_CHESTPLATE);
+                        entries.add(ReArmors.AMETHYST_LEGGINGS);
+                        entries.add(ReArmors.AMETHYST_BOOTS);
+                        entries.add(ReArmors.EMERALD_HELMET);
+                        entries.add(ReArmors.EMERALD_CHESTPLATE);
+                        entries.add(ReArmors.EMERALD_LEGGINGS);
+                        entries.add(ReArmors.EMERALD_BOOTS);
                     })
                     .build());
 
