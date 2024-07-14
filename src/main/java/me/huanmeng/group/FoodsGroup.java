@@ -10,7 +10,7 @@ import net.minecraft.registry.Registry;
 import net.minecraft.text.Text;
 import net.minecraft.util.Identifier;
 
-public class FoodGroups {
+public class FoodsGroup {
     public static final ItemGroup FOODS_GROUP = Registry.register(Registries.ITEM_GROUP,
             new Identifier(RespawnEye.MODID, "foods_group"),
             FabricItemGroup.builder()

@@ -10,7 +10,7 @@ import net.minecraft.registry.Registry;
 import net.minecraft.text.Text;
 import net.minecraft.util.Identifier;
 
-public class BlockGroups {
+public class BlocksGroup {
     public static final ItemGroup BLOCKS_GROUP = Registry.register(Registries.ITEM_GROUP,
             new Identifier(RespawnEye.MODID, "blocks_group"),
             FabricItemGroup.builder()

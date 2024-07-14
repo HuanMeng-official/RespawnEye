@@ -10,7 +10,7 @@ import net.minecraft.registry.Registry;
 import net.minecraft.text.Text;
 import net.minecraft.util.Identifier;
 
-public class ItemGroups {
+public class ItemsGroup {
 
     public static final ItemGroup ITEMS_GROUP = Registry.register(Registries.ITEM_GROUP,
             new Identifier(RespawnEye.MODID, "items_group"),
