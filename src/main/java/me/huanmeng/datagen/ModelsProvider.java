@@ -1,6 +1,7 @@
 package me.huanmeng.datagen;
 
 import me.huanmeng.block.ReBlocks;
+import me.huanmeng.item.ReArmors;
 import me.huanmeng.item.ReItems;
 import me.huanmeng.item.ReTools;
 import net.fabricmc.fabric.api.datagen.v1.FabricDataOutput;
@@ -8,6 +9,7 @@ import net.fabricmc.fabric.api.datagen.v1.provider.FabricModelProvider;
 import net.minecraft.data.client.BlockStateModelGenerator;
 import net.minecraft.data.client.ItemModelGenerator;
 import net.minecraft.data.client.Models;
+import net.minecraft.item.ArmorItem;
 
 public class ModelsProvider extends FabricModelProvider {
 
@@ -88,5 +90,17 @@ public class ModelsProvider extends FabricModelProvider {
         itemModelGenerator.register(ReItems.WATER_DRAGON_SCALE, Models.GENERATED);
         itemModelGenerator.register(ReItems.WORM_TOOTH, Models.GENERATED);
         itemModelGenerator.register(ReItems.SALT, Models.GENERATED);
+        itemModelGenerator.registerArmor((ArmorItem) ReArmors.RUBY_HELMET);
+        itemModelGenerator.registerArmor((ArmorItem) ReArmors.RUBY_CHESTPLATE);
+        itemModelGenerator.registerArmor((ArmorItem) ReArmors.RUBY_LEGGINGS);
+        itemModelGenerator.registerArmor((ArmorItem) ReArmors.RUBY_BOOTS);
+        itemModelGenerator.registerArmor((ArmorItem) ReArmors.AMETHYST_HELMET);
+        itemModelGenerator.registerArmor((ArmorItem) ReArmors.AMETHYST_CHESTPLATE);
+        itemModelGenerator.registerArmor((ArmorItem) ReArmors.AMETHYST_LEGGINGS);
+        itemModelGenerator.registerArmor((ArmorItem) ReArmors.AMETHYST_BOOTS);
+        itemModelGenerator.registerArmor((ArmorItem) ReArmors.EMERALD_HELMET);
+        itemModelGenerator.registerArmor((ArmorItem) ReArmors.EMERALD_CHESTPLATE);
+        itemModelGenerator.registerArmor((ArmorItem) ReArmors.EMERALD_LEGGINGS);
+        itemModelGenerator.registerArmor((ArmorItem) ReArmors.EMERALD_BOOTS);
     }
 }

@@ -13,5 +13,6 @@ public class RespawnEyeDataGenerator implements DataGeneratorEntrypoint {
 		pack.addProvider(LootTablesProvider::new);
 		pack.addProvider(ModelsProvider::new);
 		pack.addProvider(RecipesProvider::new);
+		pack.addProvider(ItemsTagProvider::new);
 	}
 }
