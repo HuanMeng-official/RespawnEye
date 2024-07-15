@@ -10,7 +10,7 @@ import net.minecraft.registry.Registry;
 import net.minecraft.text.Text;
 import net.minecraft.util.Identifier;
 
-public class ToolGroups {
+public class ToolsGroup {
     public static final ItemGroup TOOL_GROUP = Registry.register(Registries.ITEM_GROUP,
             Identifier.of(RespawnEye.MODID, "tools_group"),
             FabricItemGroup.builder()

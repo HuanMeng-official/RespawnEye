@@ -1,9 +1,9 @@
 package me.huanmeng;
 
 import me.huanmeng.block.ReBlocks;
-import me.huanmeng.group.BlockGroups;
-import me.huanmeng.group.ItemGroups;
-import me.huanmeng.group.ToolGroups;
+import me.huanmeng.group.BlocksGroup;
+import me.huanmeng.group.ItemsGroup;
+import me.huanmeng.group.ToolsGroup;
 import me.huanmeng.item.ReItems;
 import me.huanmeng.item.ReTools;
 import net.fabricmc.api.ModInitializer;
@@ -20,8 +20,8 @@ public class RespawnEye implements ModInitializer {
 		ReItems.registryItems();
 		ReBlocks.registryBlocks();
 		ReTools.registryTools();
-		ItemGroups.registryGroup();
-		BlockGroups.registryGroup();
-		ToolGroups.registryGroup();
+		ItemsGroup.registryGroup();
+		BlocksGroup.registryGroup();
+		ToolsGroup.registryGroup();
 	}
 }
