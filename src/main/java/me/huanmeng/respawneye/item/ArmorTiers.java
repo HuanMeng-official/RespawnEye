@@ -9,6 +9,7 @@ import net.minecraft.util.LazyLoadedValue;
 import net.minecraft.util.StringRepresentable;
 import net.minecraft.world.item.ArmorItem;
 import net.minecraft.world.item.ArmorMaterial;
+import net.minecraft.world.item.Items;
 import net.minecraft.world.item.crafting.Ingredient;
 
 import java.util.EnumMap;
@@ -20,7 +21,19 @@ public enum ArmorTiers implements StringRepresentable, ArmorMaterial {
         ruby_object.put(ArmorItem.Type.LEGGINGS, 5);
         ruby_object.put(ArmorItem.Type.CHESTPLATE, 6);
         ruby_object.put(ArmorItem.Type.HELMET, 3);
-    }), 10, SoundEvents.ARMOR_EQUIP_DIAMOND, 0.5f, 0.0f, () -> Ingredient.of(ReItems.RUBY));
+    }), 10, SoundEvents.ARMOR_EQUIP_DIAMOND, 0.5f, 0.0f, () -> Ingredient.of(ReItems.RUBY)),
+    AMETHYST("amethyst", 13, Util.make(new EnumMap<>(ArmorItem.Type.class), amethyst_object -> {
+        amethyst_object.put(ArmorItem.Type.BOOTS, 1);
+        amethyst_object.put(ArmorItem.Type.LEGGINGS, 4);
+        amethyst_object.put(ArmorItem.Type.CHESTPLATE, 5);
+        amethyst_object.put(ArmorItem.Type.HELMET, 2);
+    }), 7, SoundEvents.ARMOR_EQUIP_DIAMOND, 0.5f, 0.0f, () -> Ingredient.of(Items.AMETHYST_SHARD)),
+    EMERALD("emerald", 35, Util.make(new EnumMap<>(ArmorItem.Type.class), emerald_object -> {
+        emerald_object.put(ArmorItem.Type.BOOTS, 3);
+        emerald_object.put(ArmorItem.Type.LEGGINGS, 6);
+        emerald_object.put(ArmorItem.Type.CHESTPLATE, 7);
+        emerald_object.put(ArmorItem.Type.HELMET, 3);
+    }), 20, SoundEvents.ARMOR_EQUIP_DIAMOND, 1.5f, 0f, () -> Ingredient.of(Items.EMERALD));
 
     public static final Codec<ArmorTiers> CODEC = StringRepresentable.fromEnum(ArmorTiers::values);
     private static final EnumMap<ArmorItem.Type, Integer> HEALTH_FUNCTION_FOR_TYPE = Util.make(new EnumMap<>(ArmorItem.Type.class), object -> {
