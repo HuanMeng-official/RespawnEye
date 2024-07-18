@@ -1,6 +1,7 @@
 package me.huanmeng.respawneye.item;
 
 import com.mojang.serialization.Codec;
+import me.huanmeng.respawneye.RespawnEye;
 import net.minecraft.Util;
 import net.minecraft.sounds.SoundEvent;
 import net.minecraft.sounds.SoundEvents;
@@ -85,7 +86,7 @@ public enum ArmorTiers implements StringRepresentable, ArmorMaterial {
 
     @Override
     public String getName() {
-        return this.name;
+        return RespawnEye.MODID + ":" + this.name;
     }
 
     @Override
