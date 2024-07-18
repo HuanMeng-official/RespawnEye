@@ -22,6 +22,14 @@ public class ArmorsGroup {
                         pOutput.accept(ReArmors.RUBY_CHESTPLATE.get());
                         pOutput.accept(ReArmors.RUBY_LEGGINGS.get());
                         pOutput.accept(ReArmors.RUBY_BOOTS.get());
+                        pOutput.accept(ReArmors.AMETHYST_HELMET.get());
+                        pOutput.accept(ReArmors.AMETHYST_CHESTPLATE.get());
+                        pOutput.accept(ReArmors.AMETHYST_LEGGINGS.get());
+                        pOutput.accept(ReArmors.AMETHYST_BOOTS.get());
+                        pOutput.accept(ReArmors.EMERALD_HELMET.get());
+                        pOutput.accept(ReArmors.EMERALD_CHESTPLATE.get());
+                        pOutput.accept(ReArmors.EMERALD_LEGGINGS.get());
+                        pOutput.accept(ReArmors.EMERALD_BOOTS.get());
                     }))
                     .build());
 
