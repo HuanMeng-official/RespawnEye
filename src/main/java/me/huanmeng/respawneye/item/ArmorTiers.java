@@ -28,7 +28,7 @@ public enum ArmorTiers implements StringRepresentable, ArmorMaterial {
         amethyst_object.put(ArmorItem.Type.CHESTPLATE, 5);
         amethyst_object.put(ArmorItem.Type.HELMET, 2);
     }), 7, SoundEvents.ARMOR_EQUIP_DIAMOND, 0.5f, 0.0f, () -> Ingredient.of(Items.AMETHYST_SHARD)),
-    EMERALD("emerald", 35, Util.make(new EnumMap<>(ArmorItem.Type.class), emerald_object -> {
+    EMERALD("emerald", 18, Util.make(new EnumMap<>(ArmorItem.Type.class), emerald_object -> {
         emerald_object.put(ArmorItem.Type.BOOTS, 3);
         emerald_object.put(ArmorItem.Type.LEGGINGS, 6);
         emerald_object.put(ArmorItem.Type.CHESTPLATE, 7);
