@@ -32,10 +32,10 @@ public class ReArmors {
         AMETHYST_LEGGINGS = registerArmors("amethyst_leggings", new ArmorItem(ReArmorMaterials.AMETHYST, ArmorItem.Type.LEGGINGS, new Item.Settings().maxDamage(ArmorItem.Type.LEGGINGS.getMaxDamage(13))));
         AMETHYST_BOOTS = registerArmors("amethyst_boots", new ArmorItem(ReArmorMaterials.AMETHYST, ArmorItem.Type.BOOTS, new Item.Settings().maxDamage(ArmorItem.Type.BOOTS.getMaxDamage(13))));
 
-        EMERALD_HELMET = registerArmors("emerald_helmet", new ArmorItem(ReArmorMaterials.EMERALD, ArmorItem.Type.HELMET, new Item.Settings().maxDamage(ArmorItem.Type.HELMET.getMaxDamage(35))));
-        EMERALD_CHESTPLATE = registerArmors("emerald_chestplate", new ArmorItem(ReArmorMaterials.EMERALD, ArmorItem.Type.CHESTPLATE, new Item.Settings().maxDamage(ArmorItem.Type.CHESTPLATE.getMaxDamage(35))));
-        EMERALD_LEGGINGS = registerArmors("emerald_leggings", new ArmorItem(ReArmorMaterials.EMERALD, ArmorItem.Type.LEGGINGS, new Item.Settings().maxDamage(ArmorItem.Type.LEGGINGS.getMaxDamage(35))));
-        EMERALD_BOOTS = registerArmors("emerald_boots", new ArmorItem(ReArmorMaterials.EMERALD, ArmorItem.Type.BOOTS, new Item.Settings().maxDamage(ArmorItem.Type.BOOTS.getMaxDamage(35))));
+        EMERALD_HELMET = registerArmors("emerald_helmet", new ArmorItem(ReArmorMaterials.EMERALD, ArmorItem.Type.HELMET, new Item.Settings().maxDamage(ArmorItem.Type.HELMET.getMaxDamage(18))));
+        EMERALD_CHESTPLATE = registerArmors("emerald_chestplate", new ArmorItem(ReArmorMaterials.EMERALD, ArmorItem.Type.CHESTPLATE, new Item.Settings().maxDamage(ArmorItem.Type.CHESTPLATE.getMaxDamage(18))));
+        EMERALD_LEGGINGS = registerArmors("emerald_leggings", new ArmorItem(ReArmorMaterials.EMERALD, ArmorItem.Type.LEGGINGS, new Item.Settings().maxDamage(ArmorItem.Type.LEGGINGS.getMaxDamage(18))));
+        EMERALD_BOOTS = registerArmors("emerald_boots", new ArmorItem(ReArmorMaterials.EMERALD, ArmorItem.Type.BOOTS, new Item.Settings().maxDamage(ArmorItem.Type.BOOTS.getMaxDamage(18))));
     }
 
     public static Item registerArmors(String name, Item item) {
