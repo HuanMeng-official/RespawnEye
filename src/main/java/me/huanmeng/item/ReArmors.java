@@ -22,6 +22,10 @@ public class ReArmors {
     public static final Item EMERALD_CHESTPLATE;
     public static final Item EMERALD_LEGGINGS;
     public static final Item EMERALD_BOOTS;
+    public static final Item ULTIMATE_HELMET;
+    public static final Item ULTIMATE_CHESTPLATE;
+    public static final Item ULTIMATE_LEGGINGS;
+    public static final Item ULTIMATE_BOOTS;
 
     static {
         RUBY_HELMET = registerArmors("ruby_helmet", new ArmorItem(ArmorsMaterial.RUBY, ArmorItem.Type.HELMET, new FabricItemSettings()));
@@ -38,6 +42,11 @@ public class ReArmors {
         EMERALD_CHESTPLATE = registerArmors("emerald_chestplate", new ArmorItem(ArmorsMaterial.EMERALD, ArmorItem.Type.CHESTPLATE, new FabricItemSettings()));
         EMERALD_LEGGINGS = registerArmors("emerald_leggings", new ArmorItem(ArmorsMaterial.EMERALD, ArmorItem.Type.LEGGINGS, new FabricItemSettings()));
         EMERALD_BOOTS = registerArmors("emerald_boots", new ArmorItem(ArmorsMaterial.EMERALD, ArmorItem.Type.BOOTS, new FabricItemSettings()));
+
+        ULTIMATE_HELMET = registerArmors("ultimate_helmet", new ArmorItem(ArmorsMaterial.ULTIMATE, ArmorItem.Type.HELMET, new FabricItemSettings()));
+        ULTIMATE_CHESTPLATE = registerArmors("ultimate_chestplate", new ArmorItem(ArmorsMaterial.ULTIMATE, ArmorItem.Type.CHESTPLATE, new FabricItemSettings()));
+        ULTIMATE_LEGGINGS = registerArmors("ultimate_leggings", new ArmorItem(ArmorsMaterial.ULTIMATE, ArmorItem.Type.LEGGINGS, new FabricItemSettings()));
+        ULTIMATE_BOOTS = registerArmors("ultimate_boots", new ArmorItem(ArmorsMaterial.ULTIMATE, ArmorItem.Type.BOOTS, new FabricItemSettings()));
     }
 
     public static Item registerArmors(String name, Item item) {

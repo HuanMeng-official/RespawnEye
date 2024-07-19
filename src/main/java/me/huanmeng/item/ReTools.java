@@ -46,11 +46,11 @@ public class ReTools {
         AMETHYST_HOE = registerTools("amethyst_hoe", new HoeItem(ItemMaterial.AMETHYST, -2, 0.0F, new FabricItemSettings()));
         AMETHYST_SWORD = registerTools("amethyst_sword", new SwordItem(ItemMaterial.AMETHYST, 3, -2.4F, new FabricItemSettings()));
 
-        ULTIMATE_AXE = registerTools("ultimate_axe", new AxeItem(ItemMaterial.TITANIUM, 9, -3.0F, new FabricItemSettings()));
-        ULTIMATE_PICKAXE = registerTools("ultimate_pickaxe", new PickaxeItem(ItemMaterial.TITANIUM, 4, -2.8F, new FabricItemSettings()));
-        ULTIMATE_SHOVEL = registerTools("ultimate_shovel", new ShovelItem(ItemMaterial.TITANIUM, 4.5F, -3.0F, new FabricItemSettings()));
-        ULTIMATE_HOE = registerTools("ultimate_hoe", new HoeItem(ItemMaterial.TITANIUM, -3, 0.0F, new FabricItemSettings()));
-        ULTIMATE_SWORD = registerTools("ultimate_sword", new SwordItem(ItemMaterial.TITANIUM, 6, -2.4F, new FabricItemSettings()));
+        ULTIMATE_AXE = registerTools("ultimate_axe", new AxeItem(ItemMaterial.ULTIMATE, 9, -3.0F, new FabricItemSettings()));
+        ULTIMATE_PICKAXE = registerTools("ultimate_pickaxe", new PickaxeItem(ItemMaterial.ULTIMATE, 4, -2.8F, new FabricItemSettings()));
+        ULTIMATE_SHOVEL = registerTools("ultimate_shovel", new ShovelItem(ItemMaterial.ULTIMATE, 4.5F, -3.0F, new FabricItemSettings()));
+        ULTIMATE_HOE = registerTools("ultimate_hoe", new HoeItem(ItemMaterial.ULTIMATE, -3, 0.0F, new FabricItemSettings()));
+        ULTIMATE_SWORD = registerTools("ultimate_sword", new SwordItem(ItemMaterial.ULTIMATE, 6, -2.4F, new FabricItemSettings()));
         ULTIMATE_BOW = registerTools("ultimate_bow", new BowItem(new FabricItemSettings().maxDamage(1000)));
 
         EMERALD_AXE = registerTools("emerald_axe", new AxeItem(ItemMaterial.EMERALD, 8, -3.0F, new FabricItemSettings()));

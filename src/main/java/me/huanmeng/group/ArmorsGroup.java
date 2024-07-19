@@ -29,6 +29,10 @@ public class ArmorsGroup {
                         entries.add(ReArmors.EMERALD_CHESTPLATE);
                         entries.add(ReArmors.EMERALD_LEGGINGS);
                         entries.add(ReArmors.EMERALD_BOOTS);
+                        entries.add(ReArmors.ULTIMATE_HELMET);
+                        entries.add(ReArmors.ULTIMATE_CHESTPLATE);
+                        entries.add(ReArmors.ULTIMATE_LEGGINGS);
+                        entries.add(ReArmors.ULTIMATE_BOOTS);
                     })
                     .build());
 

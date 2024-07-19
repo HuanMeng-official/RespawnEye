@@ -14,7 +14,8 @@ public enum ArmorsMaterial implements ArmorMaterial {
 
     RUBY("ruby", 16, new int[]{3,6,5,2}, 10, SoundEvents.ITEM_ARMOR_EQUIP_DIAMOND, 0.5f, 0f, () -> Ingredient.ofItems(ReItems.RUBY)),
     AMETHYST("amethyst", 13, new int[]{2,5,4,1}, 7, SoundEvents.ITEM_ARMOR_EQUIP_DIAMOND, 0.5f, 0f, () -> Ingredient.ofItems(Items.AMETHYST_SHARD)),
-    EMERALD("emerald", 35, new int[]{3,7,6,3}, 20, SoundEvents.ITEM_ARMOR_EQUIP_DIAMOND, 1.5f, 0f, () -> Ingredient.ofItems(Items.EMERALD));
+    EMERALD("emerald", 18, new int[]{3,7,6,3}, 20, SoundEvents.ITEM_ARMOR_EQUIP_DIAMOND, 1.5f, 0f, () -> Ingredient.ofItems(Items.EMERALD)),
+    ULTIMATE("ultimate", 21, new int[]{4,8,7,4}, 16, SoundEvents.ITEM_ARMOR_EQUIP_IRON, 2.0f, 0.2f, () -> Ingredient.ofItems(ReItems.TITANIUM_INGOT));
 
     private final String name;
     private final int durabilityMultiplier;

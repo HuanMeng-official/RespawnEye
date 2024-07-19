@@ -10,7 +10,7 @@ public enum ItemMaterial implements ToolMaterial {
 
     RUBY(2, 600, 7.0F, 2.0F, 12, () -> Ingredient.ofItems(ReItems.RUBY)),
     AMETHYST(2, 450, 6.5F, 2.0F, 9, () -> Ingredient.ofItems(Items.AMETHYST_SHARD)),
-    TITANIUM(4, 800, 8.0F, 3.0F, 16, () -> Ingredient.ofItems(ReItems.TITANIUM_INGOT)),
+    ULTIMATE(4, 800, 8.0F, 3.0F, 16, () -> Ingredient.ofItems(ReItems.TITANIUM_INGOT)),
     EMERALD(3, 650, 7.5F, 2.0F, 22, () -> Ingredient.ofItems(Items.EMERALD)),
     ROSE(2, 1300, 7.0F, 2.0F, 10, () -> Ingredient.ofItems(Items.POPPY));
 
