@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "T": {
+      "item": "respawneye:titanium_ingot"
+    },
+    "U": {
+      "item": "respawneye:uranium_ingot"
+    }
+  },
+  "pattern": [
+    "T T",
+    "U U"
+  ],
+  "result": {
+    "item": "respawneye:ultimate_boots"
+  }
+}
