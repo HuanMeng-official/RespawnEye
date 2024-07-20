@@ -2,14 +2,12 @@ package me.huanmeng.datagen;
 
 import me.huanmeng.block.ReBlocks;
 import me.huanmeng.item.ReArmors;
-import me.huanmeng.item.ReEggs;
 import me.huanmeng.item.ReItems;
 import me.huanmeng.item.ReTools;
 import net.fabricmc.fabric.api.datagen.v1.FabricDataOutput;
 import net.fabricmc.fabric.api.datagen.v1.provider.FabricModelProvider;
 import net.minecraft.data.client.BlockStateModelGenerator;
 import net.minecraft.data.client.ItemModelGenerator;
-import net.minecraft.data.client.ModelIds;
 import net.minecraft.data.client.Models;
 import net.minecraft.item.ArmorItem;
 
@@ -35,7 +33,6 @@ public class ModelsProvider extends FabricModelProvider {
         blockStateModelGenerator.registerSimpleCubeAll(ReBlocks.TIGERS_EYE_ORE);
         blockStateModelGenerator.registerSimpleCubeAll(ReBlocks.TIGERS_EYE_BLOCK);
         blockStateModelGenerator.registerSimpleCubeAll(ReBlocks.DEEPSLATE_TIGERS_EYE_ORE);
-        blockStateModelGenerator.registerParentedItemModel(ReEggs.ANT_SPAWN_EGG, ModelIds.getMinecraftNamespacedItem("template_spawn_egg"));
     }
 
     @Override

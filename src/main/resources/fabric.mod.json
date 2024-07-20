@@ -38,8 +38,7 @@
 	"depends": {
 		"fabricloader": ">=0.15.9",
 		"minecraft": "~1.20.6",
-		"fabric-api": "*",
-		"geckolib": ">=4.5.3"
+		"fabric-api": "*"
 	},
 	"suggests": {
 		"another-mod": "*"
