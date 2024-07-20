@@ -9,12 +9,12 @@ import net.minecraft.util.Identifier;
 import software.bernie.geckolib.renderer.GeoEntityRenderer;
 
 public class AntRenderer extends GeoEntityRenderer<AntEntity> {
-    public AntRenderer(EntityRendererFactory.Context renderManager) {
-        super(renderManager, new AntModel());
+    public AntRenderer(EntityRendererFactory.Context context) {
+        super(context, new AntModel());
     }
 
     @Override
-    public Identifier getTextureLocation(AntEntity animatable) {
+    public Identifier getTexture(AntEntity entity) {
         return new Identifier(RespawnEye.MODID, "textures/entity/ant.png");
     }
 
