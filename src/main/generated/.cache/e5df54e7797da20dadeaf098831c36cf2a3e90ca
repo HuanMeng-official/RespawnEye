@@ -1,4 +1,4 @@
-// 1.21	2024-07-15T16:38:53.0325095	RespawnEye/Recipes
+// 1.21	2024-07-27T23:10:11.8668759	RespawnEye/Recipes
 7d134b7f6a23352104d9a99068cba693d70ba1d0 data\respawneye\advancement\recipes\misc\tigers_eye_ingot_from_blasting_raw_tigers_eye.json
 e9d780df9fea9026fd6a613d4bffa82970dee28e data\respawneye\advancement\recipes\misc\amethyst_axe.json
 8d05e456f3321a755d6c3ca181d5fb2a949540ea data\respawneye\recipe\uranium_ingot_form_uranium_nugget.json
@@ -25,6 +25,7 @@ d9b1f3365074b7237587e19f31e970b5218c3e8b data\respawneye\advancement\recipes\mis
 e868d3787be22ac2069b4ccd47327fa75cd05c54 data\respawneye\recipe\ruby_chestplate.json
 53fa2d2a7d882c8adb0a3c6dbc4f2b6e610423ef data\respawneye\recipe\tigers_eye_ingot_from_blasting_tigers_eye_ore.json
 97c51e907df315c94a3c9f9c7dfb98f0c6dd1ef7 data\respawneye\recipe\uranium_block.json
+b3261da29ffbd44b112996871a3d837948785a71 data\respawneye\recipe\ultimate_bow.json
 2b1b9f004ebc673438b2fca52d2ef26bb354a31a data\respawneye\recipe\emerald_shovel.json
 e3b2b9dca2f269ff01495d1cafe976776139fc4b data\respawneye\advancement\recipes\misc\amethyst_hoe.json
 60db0fc71d63f7446278d3b5106328bd18626254 data\respawneye\advancement\recipes\building_blocks\ruby.json
@@ -59,6 +60,7 @@ cdde256b47c5c87e45cdbae61593886439ed49d4 data\respawneye\advancement\recipes\mis
 9eccbe7d19d15b8d5c688a84c5b8db84b62c1acc data\respawneye\recipe\amethyst_helmet.json
 0ac64e2587abd60e165347793f18c0d9bd3225c7 data\respawneye\recipe\emerald_helmet.json
 6da164cfb1c2b4d1d9c26b3278741bee8e02bf9c data\respawneye\recipe\emerald_hoe.json
+ddd00d1b275947becfa79a73098ca59ff078519b data\respawneye\advancement\recipes\misc\ultimate_bow.json
 dc195b6f6a33c007f81f69f14332ab04a666adb1 data\respawneye\advancement\recipes\misc\tigers_eye_ingot_from_blasting_deepslate_tigers_eye_ore.json
 d57c4029a14ba0f61e97ca56b3ef17b96fab8fe4 data\respawneye\recipe\ultimate_shovel.json
 2b1c437e3d634ab099a2585ca76efd8fa56e2a07 data\respawneye\recipe\emerald_leggings.json

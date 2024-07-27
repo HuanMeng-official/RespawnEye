@@ -1,4 +1,4 @@
-// 1.21	2024-07-15T16:38:53.034542	RespawnEye/Tags for minecraft:block
+// 1.21	2024-07-27T23:10:11.8681705	RespawnEye/Tags for minecraft:block
 995aba76e173cc1a4be3b327a07a2157d421b97b data\minecraft\tags\block\needs_stone_tool.json
 60d57ad08cf079912755921278326622a913692b data\minecraft\tags\block\mineable\pickaxe.json
 cc6af31ee6c24e5d0532c6bd37149cca5706599c data\fabric\tags\block\needs_tool_level_2.json
