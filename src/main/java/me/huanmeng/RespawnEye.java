@@ -12,7 +12,6 @@ public class RespawnEye implements ModInitializer {
 
 	@Override
 	public void onInitialize() {
-		LOGGER.info("Hello Fabric World!");
 		RegistryEntity.registryEntities();
 	}
 }
