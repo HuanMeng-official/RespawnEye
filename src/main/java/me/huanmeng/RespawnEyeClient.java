@@ -2,7 +2,7 @@ package me.huanmeng;
 
 import me.huanmeng.entity.ReEntity;
 import me.huanmeng.entity.client.AntRenderer;
-import me.huanmeng.util.ModelsPredicateProviderRegistry;
+import me.huanmeng.util.client.ModelsPredicateProviderRegistry;
 import net.fabricmc.api.ClientModInitializer;
 import net.fabricmc.fabric.api.client.rendering.v1.EntityRendererRegistry;
 

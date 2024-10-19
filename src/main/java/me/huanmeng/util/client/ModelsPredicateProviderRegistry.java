@@ -1,4 +1,4 @@
-package me.huanmeng.util;
+package me.huanmeng.util.client;
 
 import me.huanmeng.item.ReTools;
 import net.minecraft.client.item.ModelPredicateProviderRegistry;
