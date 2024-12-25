@@ -20,5 +20,6 @@ public class ItemsTagProvider extends FabricTagProvider.ItemTagProvider {
         getOrCreateTagBuilder(ItemTags.TRIMMABLE_ARMOR).add(ReArmors.AMETHYST_HELMET, ReArmors.AMETHYST_CHESTPLATE, ReArmors.AMETHYST_LEGGINGS, ReArmors.AMETHYST_BOOTS);
         getOrCreateTagBuilder(ItemTags.TRIMMABLE_ARMOR).add(ReArmors.EMERALD_HELMET, ReArmors.EMERALD_CHESTPLATE, ReArmors.EMERALD_LEGGINGS, ReArmors.EMERALD_BOOTS);
         getOrCreateTagBuilder(ItemTags.TRIMMABLE_ARMOR).add(ReArmors.ULTIMATE_HELMET, ReArmors.ULTIMATE_CHESTPLATE, ReArmors.ULTIMATE_LEGGINGS, ReArmors.ULTIMATE_BOOTS);
+        getOrCreateTagBuilder(ItemTags.TRIMMABLE_ARMOR).add(ReArmors.MOBZILLA_HELMET, ReArmors.MOBZILLA_CHESTPLATE, ReArmors.MOBZILLA_LEGGINGS, ReArmors.MOBZILLA_BOOTS);
     }
 }

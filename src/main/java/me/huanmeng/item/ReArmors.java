@@ -26,6 +26,10 @@ public class ReArmors {
     public static final Item ULTIMATE_CHESTPLATE;
     public static final Item ULTIMATE_LEGGINGS;
     public static final Item ULTIMATE_BOOTS;
+    public static final Item MOBZILLA_HELMET;
+    public static final Item MOBZILLA_CHESTPLATE;
+    public static final Item MOBZILLA_LEGGINGS;
+    public static final Item MOBZILLA_BOOTS;
 
     static {
         RUBY_HELMET = registerArmors("ruby_helmet", new ArmorItem(ArmorsMaterial.RUBY, ArmorItem.Type.HELMET, new FabricItemSettings()));
@@ -47,6 +51,11 @@ public class ReArmors {
         ULTIMATE_CHESTPLATE = registerArmors("ultimate_chestplate", new ArmorItem(ArmorsMaterial.ULTIMATE, ArmorItem.Type.CHESTPLATE, new FabricItemSettings()));
         ULTIMATE_LEGGINGS = registerArmors("ultimate_leggings", new ArmorItem(ArmorsMaterial.ULTIMATE, ArmorItem.Type.LEGGINGS, new FabricItemSettings()));
         ULTIMATE_BOOTS = registerArmors("ultimate_boots", new ArmorItem(ArmorsMaterial.ULTIMATE, ArmorItem.Type.BOOTS, new FabricItemSettings()));
+
+        MOBZILLA_HELMET = registerArmors("mobzilla_helmet", new ArmorItem(ArmorsMaterial.MOBZILLA, ArmorItem.Type.HELMET, new FabricItemSettings()));
+        MOBZILLA_CHESTPLATE = registerArmors("mobzilla_chestplate", new ArmorItem(ArmorsMaterial.MOBZILLA, ArmorItem.Type.CHESTPLATE, new FabricItemSettings()));
+        MOBZILLA_LEGGINGS = registerArmors("mobzilla_leggings", new ArmorItem(ArmorsMaterial.MOBZILLA, ArmorItem.Type.LEGGINGS, new FabricItemSettings()));
+        MOBZILLA_BOOTS = registerArmors("mobzilla_boots", new ArmorItem(ArmorsMaterial.MOBZILLA, ArmorItem.Type.BOOTS, new FabricItemSettings()));
     }
 
     public static Item registerArmors(String name, Item item) {

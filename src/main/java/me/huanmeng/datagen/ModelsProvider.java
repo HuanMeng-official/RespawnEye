@@ -110,5 +110,9 @@ public class ModelsProvider extends FabricModelProvider {
         itemModelGenerator.registerArmor((ArmorItem) ReArmors.ULTIMATE_CHESTPLATE);
         itemModelGenerator.registerArmor((ArmorItem) ReArmors.ULTIMATE_LEGGINGS);
         itemModelGenerator.registerArmor((ArmorItem) ReArmors.ULTIMATE_BOOTS);
+        itemModelGenerator.registerArmor((ArmorItem) ReArmors.MOBZILLA_HELMET);
+        itemModelGenerator.registerArmor((ArmorItem) ReArmors.MOBZILLA_CHESTPLATE);
+        itemModelGenerator.registerArmor((ArmorItem) ReArmors.MOBZILLA_LEGGINGS);
+        itemModelGenerator.registerArmor((ArmorItem) ReArmors.MOBZILLA_BOOTS);
     }
 }
