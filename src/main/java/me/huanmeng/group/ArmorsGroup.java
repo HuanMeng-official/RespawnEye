@@ -33,6 +33,10 @@ public class ArmorsGroup {
                         entries.add(ReArmors.ULTIMATE_CHESTPLATE);
                         entries.add(ReArmors.ULTIMATE_LEGGINGS);
                         entries.add(ReArmors.ULTIMATE_BOOTS);
+                        entries.add(ReArmors.MOBZILLA_HELMET);
+                        entries.add(ReArmors.MOBZILLA_CHESTPLATE);
+                        entries.add(ReArmors.MOBZILLA_LEGGINGS);
+                        entries.add(ReArmors.MOBZILLA_BOOTS);
                     })
                     .build());
 
